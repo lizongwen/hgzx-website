@@ -9,12 +9,14 @@
 npm install
 
 # 三、启动项目
+项目根目录下运行
 npm run dev
 
 # 四、查看效果
 # http://localhost:8888
 
 # 五、打包项目
+项目根目录下运行
 npm run build
 
 
