@@ -1,6 +1,7 @@
 <template>
 	<div>
 		{{newsDetail}}
+		111111111111111111111111111111
 	</div>
 </template>
 

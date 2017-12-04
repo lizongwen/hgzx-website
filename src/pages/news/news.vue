@@ -116,7 +116,7 @@
 			.list-right {
 				float: left;
 				width: 80%;
-				padding-left: 20px;
+				margin-bottom: 33px;
 			}
 		}
 	}

@@ -14,88 +14,132 @@
 </template>
 
 <script>
-import newsDetail from "./newsDetail";
-export default {
-  name: "company-news",
-  data: function() {
-    return {
-      showList: true,
-      news: [
-        {
-          typeid: 1,
-          id: "1001",
-          type: "公司动态",
-          date: "2017-05-05",
-          title: "公司动态公司动态111111111111111111111111111",
-          detail:
-            "公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1"
-        },
-        {
-          typeid: 1,
-          id: "1002",
-          type: "公司动态",
-          date: "2017-05-05",
-          title: "公司动态公司动态22222222222222222222222222",
-          detail:
-            "公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2"
-        },
-        {
-          typeid: 1,
-          id: "1003",
-          type: "公司动态",
-          date: "2017-05-05",
-          title: "公司动态公司动态3333333333333333333333",
-          detail:
-            "公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3"
-        },
-        {
-          typeid: 1,
-          id: "1004",
-          type: "公司动态",
-          date: "2017-05-05",
-          title: "公司动态公司动态44444444444444444444444444444",
-          detail:
-            "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
-        }
-      ],
-      newsDetail: {}
-    };
-  },
-  methods: {
-    showDetail(index) {
-      this.showList = false;
-      this.newsDetail = this.news[index];
-    },
-    backList() {
-      this.showList = true;
-    }
-  },
-  components: {
-    newsDetail
-  },
-  beforeRouteEnter(to, from, next) {
-    next(vm => {
-      if (to.params.id) {
-        vm.showDetail(to.params.id);
-      }
-    });
-  },
-  mounted: function() {
-    this.$emit("setCrumb", "公司动态");
-  }
-};
+	import newsDetail from "./newsDetail";
+	export default {
+		name: "company-news",
+		data: function() {
+			return {
+				showList: true,
+				news: [{
+						typeid: 1,
+						id: "1001",
+						type: "公司动态",
+						date: "2017-05-05",
+						title: "芜湖新闻频道“丹丹面对面”栏目邀请惠国征信徐博士谈征信",
+						detail: "公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1"
+					},
+					{
+						typeid: 1,
+						id: "1002",
+						type: "公司动态",
+						date: "2017-05-05",
+						title: "惠国征信举办《建模方法论SEMMA建模路径》培训",
+						detail: "公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2"
+					},
+					{
+						typeid: 1,
+						id: "1003",
+						type: "公司动态",
+						date: "2017-05-05",
+						title: "惠国征信董事长兼总裁徐慧囝博士应邀参加台州市第三期大数据论坛",
+						detail: "公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3"
+					},
+					{
+						typeid: 1,
+						id: "1004",
+						type: "公司动态",
+						date: "2017-05-05",
+						title: "热烈祝贺惠国征信中标芜湖市信用服务应用平台建设项目",
+						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
+					},
+					{
+						typeid: 1,
+						id: "1005",
+						type: "公司动态",
+						date: "2017-05-05",
+						title: "热烈祝贺惠国征信中标芜湖市互联网金融在线综合监管平台建设项目",
+						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
+					},
+					{
+						typeid: 1,
+						id: "1006",
+						type: "公司动态",
+						date: "2017-05-05",
+						title: "惠国征信徐慧囝总裁应邀参加第八届国际创新管理信息与生产研讨会",
+						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
+					},
+					{
+						typeid: 1,
+						id: "1007",
+						type: "公司动态",
+						date: "2017-05-05",
+						title: "惠国征信徐慧囝总裁应邀参加芜湖市“区域金融中心建设与金融人才培养”高层座谈会",
+						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
+					},
+					{
+						typeid: 1,
+						id: "1008",
+						type: "公司动态",
+						date: "2017-05-05",
+						title: "惠国征信董事长徐慧囝博士受邀担任芜湖市人社局创业展示活动专家评审",
+						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
+					},
+					{
+						typeid: 1,
+						id: "1009",
+						type: "公司动态",
+						date: "2017-05-05",
+						title: "惠国征信率先践行芜湖市政府“校地合作”战略",
+						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
+					}
+				],
+				newsDetail: {}
+			};
+		},
+		methods: {
+			showDetail(index) {
+				this.showList = false;
+				this.newsDetail = this.news[index];
+			},
+			backList() {
+				this.showList = true;
+			}
+		},
+		components: {
+			newsDetail
+		},
+		beforeRouteEnter(to, from, next) {
+			next(vm => {
+				if(to.params.id) {
+					vm.showDetail(to.params.id);
+				}
+			});
+		},
+		mounted: function() {
+			this.$emit("setCrumb", "公司动态");
+		}
+	};
 </script>
 
 <style lang="less" scoped>
-.company-news {
-  .news-wrapper {
-    .title {
-      float: left;
-    }
-    .time {
-      float: right;
-    }
-  }
-}
+	.company-news {
+		.news-wrapper {
+			li {
+				font-size: 16px;
+				border-bottom: 1px #7D7A74 dashed;
+				color: #7D7A74;
+				padding-bottom: 12px;
+				text-indent: 1.5em;
+				div {
+					margin-top: 12px;
+				}
+			}
+			.title {
+				float: left;
+			}
+			.time {
+				float: right;
+			}
+		}
+	}
 </style>
-
