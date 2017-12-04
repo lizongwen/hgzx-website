@@ -19,6 +19,11 @@ import credit from '@/pages/financial/credit';
 import iot from '@/pages/financial/iot';
 import banking from '@/pages/financial/banking';
 
+import government from '@/pages/government/government';
+import benevolent from '@/pages/government/benevolent';
+import supervise from '@/pages/government/supervise';
+import system from '@/pages/government/system';
+
 import offers from '@/pages/offers';
 import contact from '@/pages/contact';
 Vue.use(Router)
@@ -146,7 +151,36 @@ export default new Router({
 				component: banking,
 			}]
 		},
-
+        {
+			path: '/government',
+			name: 'government',
+			component: government,
+			meta: {
+				index: '5'
+			},
+			children: [{
+				path: 'benevolent',
+				name: 'benevolent',
+				meta: {
+					index: '5-1'
+				},
+				component: benevolent,
+			}, {
+				path: 'supervise',
+				name: 'supervise',
+				meta: {
+					index: '5-2'
+				},
+				component: supervise,
+			}, {
+				path: 'system',
+				name: 'system',
+				meta: {
+					index: '4-3'
+				},
+				component: system,
+			}]
+		},
 		{
 			path: '/offers',
 			name: 'offers',

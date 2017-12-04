@@ -61,9 +61,15 @@
 						<template slot="title">
 							政务征信
 						</template>
-						<MenuItem name="5-1">惠政信用服务平台</MenuItem>
-						<MenuItem name="5-2">互联网金融监管平台</MenuItem>
-						<MenuItem name="5-3">社会信用体系建设</MenuItem>
+						<MenuItem name="5-1">
+							<router-link to="/government/benevolent" class="link">惠政信用服务平台</router-link>
+						</MenuItem>
+						<MenuItem name="5-2">
+							<router-link to="/government/supervise" class="link">互联网金融监管平台</router-link>
+						</MenuItem>
+						<MenuItem name="5-3">
+							<router-link to="/government/system" class="link">社会信用体系建设</router-link>
+						</MenuItem>
 					</Submenu>
 					<MenuItem name="6">
 					<router-link to="/offers" class="link">招贤纳士</router-link>
