@@ -14,6 +14,11 @@ import media from '@/pages/news/media';
 import topic from '@/pages/news/topic';
 import industry from '@/pages/news/industry';
 
+import financial from '@/pages/financial/financial';
+import credit from '@/pages/financial/credit';
+import iot from '@/pages/financial/iot';
+import banking from '@/pages/financial/banking';
+
 import offers from '@/pages/offers';
 import contact from '@/pages/contact';
 Vue.use(Router)
@@ -111,7 +116,37 @@ export default new Router({
 				},
 				component: industry,
 			}]
+		},{
+			path: '/financial',
+			name: 'financial',
+			component: financial,
+			meta: {
+				index: '4'
+			},
+			children: [{
+				path: 'credit',
+				name: 'credit',
+				meta: {
+					index: '4-1'
+				},
+				component: credit,
+			}, {
+				path: 'iot',
+				name: 'iot',
+				meta: {
+					index: '4-2'
+				},
+				component: iot,
+			}, {
+				path: 'banking',
+				name: 'banking',
+				meta: {
+					index: '4-3'
+				},
+				component: banking,
+			}]
 		},
+
 		{
 			path: '/offers',
 			name: 'offers',

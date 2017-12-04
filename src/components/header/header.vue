@@ -47,9 +47,15 @@
 						<template slot="title">
 							金融征信
 						</template>
-						<MenuItem name="4-1">中小企业信用贷</MenuItem>
-						<MenuItem name="4-2">IOT贷后监管平台</MenuItem>
-						<MenuItem name="4-3">金融行业经验</MenuItem>
+						<MenuItem  name="4-1">
+							<router-link to="/financial/credit" class="sub-link">中小企业信用贷</router-link>
+						</MenuItem>
+						<MenuItem  name="4-2">
+							<router-link to="/financial/iot" class="sub-link">IOT贷后监管平台</router-link>
+						</MenuItem>
+						<MenuItem  name="4-3">
+							<router-link to="/financial/banking" class="sub-link">金融行业经验</router-link>
+						</MenuItem>
 					</Submenu>
 					<Submenu name="5">
 						<template slot="title">
