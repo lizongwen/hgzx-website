@@ -44,13 +44,19 @@
 						<a href="javascript:;">金融征信</a>
 					</li>
 					<li>
-						<a href="javascript:;">中小企业信用贷</a>
+						<a href="javascript:;">
+							<router-link to="/financial/credit" class="sub-link">中小企业信用贷</router-link>
+						</a>
 					</li>
 					<li>
-						<a href="javascript:;">IOT贷后监管平台</a>
+						<a href="javascript:;">
+							<router-link to="/financial/iot" class="sub-link">IOT贷后监管平台</router-link>
+						</a>
 					</li>
 					<li>
-						<a href="javascript:;">金融行业经验</a>
+						<a href="javascript:;">
+							<router-link to="/financial/banking" class="sub-link">金融行业经验</router-link>
+						</a>
 					</li>
 				</ul>
 				<ul class="list">
@@ -58,13 +64,20 @@
 						<a href="javascript:;">政务征信</a>
 					</li>
 					<li>
-						<a href="javascript:;">惠政信用服务平台</a>
+						<a href="javascript:;">
+							<router-link to="/government/benevolent" class="link">惠政信用服务平台</router-link>
+						</a>
 					</li>
 					<li>
-						<a href="javascript:;">互联网监管服务平台</a>
+						<a href="javascript:;">
+							<router-link to="/government/supervise" class="link">互联网金融监管平台</router-link>
+						</a>
 					</li>
 					<li>
-						<a href="javascript:;">社会信用体系建设</a>
+						<a href="javascript:;">
+							<router-link to="/government/system" class="link">社会信用体系建设</router-link>
+						</MenuItem>
+						</a>
 					</li>
 				</ul>
 				<ul class="list">

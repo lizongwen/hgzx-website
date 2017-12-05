@@ -15,7 +15,7 @@
 						</li>
 						<li>
 							<span>
-								<router-link to="/government/supervise" class="link">互联网金融监管平台</router-link>
+								<router-link to="/government/supervise" class="link">互金监管平台</router-link>
 							</span>
 							<div class="line"></div>
 						</li>
