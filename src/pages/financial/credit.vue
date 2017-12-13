@@ -28,7 +28,6 @@
 		data: function() {
 			return {
 				credit_1: credit_1,
-				credit_2: credit_2,
 			};
 		},
 
@@ -44,12 +43,13 @@
 			line-height: 26px;
 			font-size: 14px;
 			text-indent:2em;
-			margin-bottom: 15px;
+			
 		}
 		.credit-right {
 			width: 200px;
+			height: 100%;
 			float: left;
-		.img1 {
+		.img1{
 			padding-bottom: 15px;
 		}
 		}
