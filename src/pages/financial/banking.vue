@@ -1,24 +1,71 @@
 <template>
 	<div class="banking">
-		<p>惠国征信服务股份有限公司（以下简称“惠国征信”）是由芜湖市政府主导推动，芜湖市信息办、金融办、信用办联合引领的以征信平台为载体、致力于政务信用、中小企业征信以及农业征信等多元化征信产品服务，以金融大数据和商业物联网大数据为基础的综合性高端征信业服务机构。</p>
-		<p>惠国征信于2016年7月20日在国家工商管理总局正式注册，注册资本5000万元，主要股东是惠国投资管理合伙企业、芜湖市民强融资担保（集团）有限公司、安徽讯飞智能科技有限公司、安徽中电兴发与鑫龙科技股份有限公司、芜湖新马投资有限公司等五家上市及国资背景单位。公司总部位于芜湖市高新区芦花荡湿地生态公园内独栋办公别墅，自然景观优美，办公环境宜人。公司还计划分别在杭州和北京设立产品研发中心和市场战略中心，以吸引更多高端优秀人才的加盟。</p>
-		<div  class="img1"><img  :src="banking_1" /></div>
-		<p>惠国征信依托顶尖的征信团队和金融征信技术，立志打造中国社会信用体系的样板和具有广阔前景的商业征信模式，成为中国最领先的征信机构之一。基于行为类富媒体大数据征信技术的企业征信以及在中小企业融资领域创新性的研究和实践，惠国征信被吸纳成为中国首家加入BIIA（亚太征信协会）的正式会员。在2016年菲律宾马尼拉召开的亚太经济合作组织（APEC）财长会议上，惠国征信行为类富媒体大数据征信技术被认定为亚太地区最领先行业实践，并被肯定为贯彻2015亚太财长宣言的最重要技术支撑。在2016年泰国曼谷召开的湄公河区域国家间信用信息共享第一次会议上，惠国征信被推选为“一带一路”战略方向上的湄公河流域跨境征信实践试点合作方，将配合国际商业信息行业协会完善中国的跨境数据交换模型。在2016年第三届中国国际大数据大会上，惠国征信荣获“二零一六年度中国大数据领域创新创业奖”，徐慧囝总裁荣获“二零一六年度中国大数据领域创新人物奖”。</p>
-		<p>惠国征信高管团队在投资价值分析、市场产品规划、管理咨询、商业信用评级、公司内控管理等专业领域拥有极其丰富的金融及征信行业工作经验。惠国征信内部还设立有与ISN国家重点实验室联合成立的“富媒体大数据深度集成联合实验室”，其科研团队拥有58名博士，包含长江学者7人、长江讲座教授3人、IEEE Fellow1人，充分保证了惠国征信在行业技术水平上一直保持全国领先层次的核心竞争力。</p>
-		<div class="img2"><img  :src="banking_2" /></div>
-		<p>惠国征信将按照《社会信用体系建设规划纲要（2014-2020 年）》要求，围绕建设社会信用体系，借助芜湖市社会信用管理和数据采集机制，以及来自 D&B 的创始团队在中小企业金融服务的专业经验，从惠政、惠商、惠农等业务主线进行产品规划，创造由政府统筹、行业自律、商业机构应用的征信建设模式，强化信用对社会主体、政府部门的约束作用，着力构建以征信为基础、以信息公示为手段、以信用监管为核心的社会信用体系，积极协助推动芜湖市信用示范城市的建设工作，提高政府管理效能、降低社会管理成本，创建诚信社会，促进经济升级、城市升级。</p>
-		<p>同时，惠国征信还将结合实际、探索创新，立足芜湖、辐射全国，全面推进政务诚信、商务诚信、社会诚信和司法公信建设，为地方经济社会发展构建良好的信用环境，为全国社会信用体系建设探索经验、做出示范。</p>
-    </div>
+		<div class="left">
+			<div class="left_1">
+				<p class="nianfen">2010年11月</p>
+				<p>中国光大银行中小企业业务发展总体规划实施</p>
+			</div>
+			<div class="left_2">
+				<p class="nianfen">2011年4月</p>
+				<p>中国中信银行中小企业评级模型建设</p>
+			</div>
+			<div class="left_3">
+				<p class="nianfen">2012年6月</p>
+				<p>澳大利亚个人信用评级模型</p>
+			</div>
+			<div class="left_4">
+				<p class="nianfen">2013年3月</p>
+				<p>邓白氏大中华区逾期预测评分CDS</p>
+			</div>
+			<div class="left_5">
+				<p class="nianfen">2014年4月</p>
+				<p>西班牙国家企业违约概率模型FFS</p>
+			</div>
+			<div class="left_6">
+				<p class="nianfen">2014年12月</p>
+				<p>罗氏诊断经销商合规体系</p>
+			</div>
+		</div>
+		<div class="img"><img :src="banking_1" /></div>
+		<div class="right">
+			<div class="right_1">
+				<p>2010年8月</p>
+				<p>招商银行经营性个人信贷业务营销咨询服务项目</p>
+			</div>
+			<div class="right_2">
+				<p>2011年3月</p>
+				<p>邓白氏中国新兴市场EMMA风险预警评分</p>
+			</div>
+			<div class="right_3">
+				<p>2012年1月</p>
+				<p>香港中小企业征信局运营</p>
+			</div>
+			<div class="right_4">
+				<p>2012年7月</p>
+				<p>日本中小企业违约概率评级模型</p>
+			</div>
+			<div class="right_5">
+				<p>2014年1月</p>
+				<p>台湾地区违约概率模型TW-FFS</p>
+			</div>
+			<div class="right_6">
+				<p>2014年9月</p>
+				<p>渣打银行中小企业指数产品</p>
+			</div>
+			<div class="right_7">
+				<p>2015年1月</p>
+				<p>筹建浙江省第四家征信公司温州中新力合征信</p>
+			</div>
+		</div>
+	</div>
 </template>
 
 <script>
-	import banking_1 from '../img/company-1.png';
-	import banking_2 from '../img/company-2.png';
+	import banking_1 from '../img/tree.png';
 	export default {
 		data: function() {
 			return {
-                banking_1:banking_1,
-				banking_2: banking_2,
+				banking_1: banking_1,
 			};
 		},
 
@@ -26,22 +73,117 @@
 </script>
 
 <style lang="less" scoped>
-.banking{
-	margin-bottom: 23px;
-  p{
-  	font-size:14px;
-  	text-indent: 2em;
-  	padding-bottom:5px ;
-  	line-height: 1.75;
-  	color: #3A3B3A;
-  }
-  .img1{
-  	height: 340px;
-  	text-align: center;
-  }
-  .img2{
-  	height: 234px;
-  	text-align: center;
-  }
-}  
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.banking {
+		margin-bottom: 23px;
+		.left {
+			float: left;
+			/*position: relative;*/
+			width: 280px;
+			font-size: 14px;
+			.left_1 {
+				float: right;
+				position: relative;
+				top: 75px;
+				right: 5px;
+				.nianfen {
+					position: relative;
+					left: 207px;
+				}
+			}
+			.left_2 {
+				position: relative;
+				top: 145px;
+				right: 5px;
+				left: 55px;
+				.nianfen {
+					position: relative;
+					left: 157px;
+				}
+			}
+			.left_3 {
+				position: relative;
+				top: 215px;
+				left:110px;
+				.nianfen {
+					position: relative;
+					left: 102px;
+				}
+			}
+			.left_4 {
+				position: relative;
+				top: 282px;
+				left:70px;
+				.nianfen {
+					position: relative;
+					left: 140px;
+				}
+			}
+			.left_5 {
+				position: relative;
+				top: 352px;
+				left: 70px;
+				.nianfen {
+					position: relative;
+					left: 140px;
+				}
+			}
+			.left_6 {
+				position: relative;
+				top: 445px;
+				left: 125px;
+				.nianfen {
+					position: relative;
+					left:80px;
+				}
+			}
+		}
+		.img {
+			float: left;
+		}
+		.right {
+			float: left;
+			/*position: relative;*/
+			font-size: 14px;
+			.right_1 {
+				position: relative;
+				top: 15px;
+				left: 5px;
+			}
+			.right_2 {
+				position: relative;
+				top: 85px;
+				left: 5px;
+			}
+			.right_3 {
+				position: relative;
+				top: 155px;
+				left: 5px;
+			}
+			.right_4 {
+				position: relative;
+				top: 225px;
+				left: 5px;
+			}
+			.right_5 {
+				position: relative;
+				top: 295px;
+				left: 5px;
+			}
+			.right_6 {
+				position: relative;
+				top: 385px;
+				left: 5px;
+			}
+			.right_7 {
+				position: relative;
+				top: 455px;
+				left: 5px;
+			}
+		}
+	}
 </style>
