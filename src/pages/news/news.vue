@@ -1,10 +1,5 @@
 <template>
 	<div class="news">
-		<!--<Breadcrumb>
-			<BreadcrumbItem>首页</BreadcrumbItem>
-			<BreadcrumbItem>新闻中心</BreadcrumbItem>
-			<BreadcrumbItem>{{current}}</BreadcrumbItem>
-		</Breadcrumb>-->
 		<div class="top">
 			<span class="text">首页&nbsp;>&nbsp; 新闻中心&nbsp; > &nbsp;{{current}}</span>
 		</div>

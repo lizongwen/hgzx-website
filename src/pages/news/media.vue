@@ -1,5 +1,5 @@
 <template>
-	<div class="media">
+	<div class="company-news">
 		<ul class="news-wrapper" v-show="showList">
 			<li class="clearfix" v-for="(item,index) in news" :key="index" @click="showDetail(index)">
 				<div class="title">{{item.title}}</div>
@@ -7,93 +7,98 @@
 			</li>
 		</ul>
 		<div v-show="!showList">
-			<news-detail :newsDetail="newsDetail"></news-detail>
-			<!-- 内容:{{currentDetail.detail}} -->
+			<component :is="current"></component>
 			<div @click="backList">返回列表</div>
 		</div>
 	</div>
 </template>
 
 <script>
-	import newsDetail from "./newsDetail";
-	export default {
-		name: "media-news",
-		data: function() {
-			return {
-				showList: true,
-				news: [{
-						typeid: 2,
-						id: "2001",
-						type: "媒体动态",
-						date: "2017-05-05",
-						title: "媒体动态111111111111111111111111111",
-						detail: "媒体动态11111111111111111111111111111"
-					},
-					{
-						typeid: 2,
-						id: "2002",
-						type: "媒体动态",
-						date: "2017-05-05",
-						title: "媒体动态22222222222222222222222222222",
-						detail: "媒体动态222222222222222222222222222222222"
-					},
-					{
-						typeid: 2,
-						id: "2003",
-						type: "媒体动态",
-						date: "2017-05-05",
-						title: "媒体动态33333333333333333333333333",
-						detail: "媒体动态333333333333333333333333333"
-					},
-					{
-						typeid: 2,
-						id: "2004",
-						type: "媒体动态",
-						date: "2017-05-05",
-						title: "媒体动态44444444444444",
-						detail: "媒体动态4444444444444444444444444444444444444444444444"
-					}
-				],
-				newsDetail: {}
-			};
-		},
-		methods: {
-			showDetail(index) {
-				this.showList = false;
-				this.newsDetail = news[index];
-			},
-			backList() {
-				this.showList = true;
-			}
-		},
-		components: {
-			newsDetail
-		},
-		mounted: function() {
-			this.$emit('setCrumb', '媒体报道');
-		}
-	};
+import newsDetail1 from "./newsDetail/newsDetail1";
+import newsDetail2 from "./newsDetail/newsDetail2";
+import newsDetail3 from "./newsDetail/newsDetail3";
+// import newsDetail4 from "./newsDetail/newsDetail4";
+// import newsDetail5 from "./newsDetail/newsDetail5";
+// import newsDetail6 from "./newsDetail/newsDetail6";
+// import newsDetail7 from "./newsDetail/newsDetail7";
+// import newsDetail8 from "./newsDetail/newsDetail8";
+// import newsDetail9 from "./newsDetail/newsDetail9";
+// import newsDetail10 from "./newsDetail/newsDetail10";
+export default {
+  name: "company-news",
+  components: {
+    newsDetail1: newsDetail1,
+    newsDetail2: newsDetail2,
+    newsDetail3: newsDetail3
+    // newsDetail4: newsDetail4,
+    // newsDetail5: newsDetail5,
+    // newsDetail6: newsDetail6,
+    // newsDetail7: newsDetail7,
+    // newsDetail8: newsDetail8,
+    // newsDetail9: newsDetail9,
+    // newsDetail10: newsDetail10,
+  },
+  data: function() {
+    return {
+      current: "newsDetail1",
+      showList: true,
+      news: [
+        {
+          typeid: 1,
+          id: "1001",
+          type: "媒体报道",
+          date: "2017-05-05",
+          title: "芜湖新闻频道“丹丹面对面”栏目邀请惠国征信徐博士谈征信",
+          detail:
+            "<p>公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1</p>"
+        },
+      ],
+      newsDetail: {}
+    };
+  },
+  methods: {
+    showDetail: function(current) {
+      console.log(current);
+      this.showList = false;
+      this.newsDetail = this.news[current];
+      this.current = "newsDetail" + (current + 1);
+    },
+    backList() {
+      this.showList = true;
+    }
+  },
+  beforeRouteEnter(to, from, next) {
+    next(vm => {
+      if (to.params.id) {
+        vm.showDetail(to.params.id);
+      }
+    });
+  },
+  mounted: function() {
+    this.$emit("setCrumb", "媒体报道");
+  }
+};
 </script>
 
 <style lang="less" scoped>
-	.media {
-		.news-wrapper {
-			li {
-				font-size: 16px;
-				border-bottom: 1px #7D7A74 dashed;
-				color: #7D7A74;
-				padding-bottom: 12px;
-				text-indent: 1.5em;
-				div {
-					margin-top: 12px;
-				}
-			}
-			.title {
-				float: left;
-			}
-			.time {
-				float: right;
-			}
-		}
-	}
+.company-news {
+  .news-wrapper {
+    li {
+      font-size: 16px;
+      border-bottom: 1px #7d7a74 dashed;
+      color: #7d7a74;
+      padding-bottom: 12px;
+      text-indent: 1.5em;
+      div {
+        margin-top: 12px;
+      }
+    }
+    .title {
+      float: left;
+    }
+    .time {
+      float: right;
+    }
+  }
+}
 </style>
