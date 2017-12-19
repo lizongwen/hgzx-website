@@ -58,14 +58,14 @@ export default {
 		    border-top: 1px solid #eee;
 		}
 		.header {
-			font-size: 18px;
-			text-align:center;
+			width: 550px;
+			font-size: 24px;
+			margin: 0 auto;
 			margin-bottom: 5px;
-			color: #b62a31;
 		}
 		.nav {
-			width: 400px;
-			color: #888;
+			width: 550px;
+			color: #31708f;
 			margin: 0 auto;
 		    font-size: 12px;
 		    .left {

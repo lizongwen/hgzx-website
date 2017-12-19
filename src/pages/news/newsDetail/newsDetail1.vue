@@ -45,14 +45,14 @@ export default {
 		    border-top: 1px solid #eee;
 		}
 		.header {
-			width: 620px;
-			font-size: 24px;
-			margin: 0 auto;
+			font-size: 18px;
+			text-align:center;
 			margin-bottom: 5px;
+			color: #b62a31;
 		}
 		.nav {
-			width: 620px;
-			color: #31708f;
+			width: 460px;
+			color: #888;
 			margin: 0 auto;
 		    font-size: 12px;
 		    .left {
