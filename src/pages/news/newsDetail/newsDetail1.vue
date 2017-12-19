@@ -57,11 +57,11 @@ export default {
 		    font-size: 12px;
 		    .left {
 				float: left;
-				padding-left: 10px;
+				padding-left: 15px;
 			}
 			.right {
 				float: right;
-				padding-right: 10px;
+				padding-right: 15px;
 			}
 		}
 		.img{
