@@ -8,7 +8,7 @@
 		</ul>
 		<div v-show="!showList">
 			<component :is="current"></component>
-			<div @click="backList">返回列表</div>
+			<div @click="backList" class="footer">返回列表</div>
 		</div>
 	</div>
 </template>
@@ -243,6 +243,11 @@ export default {
     }
     .time {
       float: right;
+    }
+    .footer{
+    	position: relative;
+    	bottom: 20px;
+    	color: #777;
     }
   }
 }
