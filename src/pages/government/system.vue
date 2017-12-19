@@ -19,19 +19,16 @@
 		</div>
 		<div class="system-right">
 			<div class="img1"><img :src="system_1" /></div>
-			<!--<div class="img2"><img :src="system_2" /></div>-->
 		</div>
 	</div>
 </template>
 
 <script>
 	import system_1 from '../img/shtx.png';
-//	import system_2 from '../img/company-2.png';
 	export default {
 		data: function() {
 			return {
 				system_1: system_1,
-//				system_2: system_2,
 			};
 		},
 
@@ -42,7 +39,7 @@
 	.system {
 		.system-left {
 			width: 500px;
-			float:left;
+			float: left;
 			.title-big {
 				font-weight: 500;
 				font-size: 16px;
@@ -57,20 +54,17 @@
 				font-size: 14px;
 				padding-bottom: 20px;
 			}
-			.title-small_2{
+			.title-small_2 {
 				padding-bottom: 0px;
 			}
 		}
 		.system-right {
 			width: 300px;
 			float: left;
-		.img1 {
-			margin-top: 30px;
-			padding-bottom: 15px;
-			
+			.img1 {
+				margin-top: 30px;
+				padding-bottom: 15px;
+			}
 		}
-		
-	}
-		
 	}
 </style>
