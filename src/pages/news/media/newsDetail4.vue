@@ -1,5 +1,5 @@
 <template>
-	<div class="detail_1">
+	<div class="detail_4">
 		<div class="header">《芜湖日报》头版载文：“惠政平台”助力芜湖信用示范城市建设</div>
 		<div class="nav">
 			<p class="left">发布日期：2017-03-08</p>
@@ -29,7 +29,7 @@
 </script>
 
 <style lang="less" scoped>
-	.detail_1 {
+	.detail_4{
 		.hr1 {
 			margin-top: 40px;
 			margin-bottom: 10px;

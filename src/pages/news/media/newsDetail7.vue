@@ -1,5 +1,5 @@
 <template>
-	<div class="detail_1">
+	<div class="detail_7">
 		<div class="header">中国征信技术获APEC会议肯定</div>
 		<div class="nav">
 			<p class="left">发布日期：2016-11-01</p>
@@ -32,7 +32,7 @@
 </script>
 
 <style lang="less" scoped>
-	.detail_1 {
+	.detail_7 {
 		.hr1 {
 			margin-top: 40px;
 			margin-bottom: 10px;

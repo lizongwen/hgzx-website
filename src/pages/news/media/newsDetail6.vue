@@ -1,5 +1,5 @@
 <template>
-	<div class="detail_1">
+	<div class="detail_6">
 		<div class="header">惠国征信助力芜湖创建信用示范城市取得初步成效</div>
 		<div class="nav">
 			<p class="left">发布日期：2017-01-04</p>
@@ -25,7 +25,7 @@
 </script>
 
 <style lang="less" scoped>
-	.detail_1 {
+	.detail_6 {
 		.hr1 {
 			margin-top: 40px;
 			margin-bottom: 10px;

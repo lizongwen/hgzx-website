@@ -1,5 +1,5 @@
 <template>
-	<div class="detail_1">
+	<div class="detail_2">
 		<div class="header">芜湖新闻网头条新闻：执着博士助力芜湖信用体系示范城市建设</div>
 		<div class="nav">
 			<p class="left">发布日期：2017-03-15</p>
@@ -48,7 +48,7 @@
 </script>
 
 <style lang="less" scoped>
-	.detail_1 {
+	.detail_2 {
 		.hr1 {
 			margin-top: 40px;
 			margin-bottom: 10px;

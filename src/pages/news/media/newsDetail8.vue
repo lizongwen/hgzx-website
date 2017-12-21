@@ -1,5 +1,5 @@
 <template>
-	<div class="detail_1">
+	<div class="detail_8">
 		<div class="header">跨境征信将在中国内地开展业务试点</div>
 		<div class="nav">
 			<p class="left">发布日期：2016-07-14</p>
@@ -27,7 +27,7 @@
 </script>
 
 <style lang="less" scoped>
-	.detail_1 {
+	.detail_8 {
 		.hr1 {
 			margin-top: 40px;
 			margin-bottom: 10px;

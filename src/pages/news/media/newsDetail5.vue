@@ -1,5 +1,5 @@
 <template>
-	<div class="detail_1">
+	<div class="detail_5">
 		<div class="header">《芜湖日报》载文“扎根芜湖创新创业，征信事业惠国利民”</div>
 		<div class="nav">
 			<p class="left">发布日期：2017-01-25</p>
@@ -32,7 +32,7 @@
 </script>
 
 <style lang="less" scoped>
-	.detail_1 {
+	.detail_5 {
 		.hr1 {
 			margin-top: 40px;
 			margin-bottom: 10px;

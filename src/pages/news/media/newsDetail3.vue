@@ -1,5 +1,5 @@
 <template>
-	<div class="detail_1">
+	<div class="detail_3">
 		<div class="header">《大江晚报》信用专栏载文：惠国征信助力构建社会信用体系</div>
 		<div class="nav">
 			<p class="left">发布日期：2017-03-09</p>
@@ -32,7 +32,7 @@
 </script>
 
 <style lang="less" scoped>
-	.detail_1 {
+	.detail_3 {
 		.hr1 {
 			margin-top: 40px;
 			margin-bottom: 10px;
