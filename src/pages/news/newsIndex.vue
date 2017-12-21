@@ -23,15 +23,15 @@
 	import newsDetail7 from "./newsDetail/newsDetail7";
 	import newsDetail8 from "./newsDetail/newsDetail8";
 	import newsDetail9 from "./newsDetail/newsDetail9";
-//	import newsDetail10 from "./newsDetail/newsDetail10";
-//	import newsDetail11 from "./newsDetail/newsDetail1";
-//	import newsDetail12 from "./newsDetail/newsDetail2";
-//	import newsDetail13 from "./newsDetail/newsDetail3";
-//	import newsDetail14 from "./newsDetail/newsDetail4";
-//	import newsDetail15 from "./newsDetail/newsDetail5";
-//	import newsDetail16 from "./newsDetail/newsDetail6";
-//	import newsDetail17 from "./newsDetail/newsDetail7";
-//	import newsDetail18 from "./newsDetail/newsDetail8";
+	import newsDetail10 from "./newsDetail/newsDetail10";
+	import newsDetail11 from "./newsDetail/newsDetail11";
+		import newsDetail12 from "./newsDetail/newsDetail12";
+	//	import newsDetail13 from "./newsDetail/newsDetail13";
+	//	import newsDetail14 from "./newsDetail/newsDetail14";
+	//	import newsDetail15 from "./newsDetail/newsDetail15";
+	//	import newsDetail16 from "./newsDetail/newsDetail16";
+	//	import newsDetail17 from "./newsDetail/newsDetail17";
+	//	import newsDetail18 from "./newsDetail/newsDetail18";
 	export default {
 		name: "company-news",
 		components: {
@@ -44,15 +44,15 @@
 			newsDetail7: newsDetail7,
 			newsDetail8: newsDetail8,
 			newsDetail9: newsDetail9,
-//			newsDetail10: newsDetail10,
-//			newsDetail11: newsDetail11,
-//			newsDetail12: newsDetail1,
-//			newsDetail13: newsDetail13,
-//			newsDetail14: newsDetail14
-//			newsDetail15: newsDetail15,
-//			newsDetail16: newsDetail16,
-//			newsDetail17: newsDetail17,
-//			newsDetail18: newsDetail18
+			newsDetail10: newsDetail10,
+			newsDetail11: newsDetail11,
+						newsDetail12: newsDetail12,
+			//			newsDetail13: newsDetail13,
+			//			newsDetail14: newsDetail14
+			//			newsDetail15: newsDetail15,
+			//			newsDetail16: newsDetail16,
+			//			newsDetail17: newsDetail17,
+			//			newsDetail18: newsDetail18
 		},
 		data: function() {
 			return {
@@ -61,139 +61,147 @@
 				news: [{
 						typeid: 1,
 						id: "1001",
-						type: "公司动态",
-						date: "2017-05-05",
+						date: "2017-09-06",
 						title: "1芜湖新闻频道“丹丹面对面”栏目邀请惠国征信徐博士谈征信",
-						detail: "<p>公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1公司动态1</p>"
 					},
 					{
 						typeid: 1,
 						id: "1002",
-						type: "公司动态",
-						date: "2017-05-05",
+						date: "2017-08-09",
 						title: "2惠国征信举办《建模方法论SEMMA建模路径》培训",
-						detail: "公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2公司动态2"
 					},
 					{
 						name: "newsDetail3",
 						typeid: 1,
 						id: "1003",
-						type: "公司动态",
-						date: "2017-05-05",
+						date: "2017-07-07",
 						title: "3惠国征信董事长兼总裁徐慧囝博士应邀参加台州市第三期大数据论坛",
-						detail: "公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3公司动态3"
 					},
 					{
 						typeid: 1,
 						id: "1004",
-						type: "公司动态",
-						date: "2017-05-05",
+						date: "2017-06-23",
 						title: "4热烈祝贺惠国征信中标芜湖市信用服务应用平台建设项目",
-						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
 					},
 					{
 						typeid: 1,
 						id: "1005",
-						type: "5公司动态",
-						date: "2017-05-05",
+						date: "2017-06-09",
 						title: "热烈祝贺惠国征信中标芜湖市互联网金融在线综合监管平台建设项目",
-						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
 					},
 					{
 						typeid: 1,
 						id: "1006",
-						type: "公司动态",
-						date: "2017-05-05",
+						date: "2017-06-02",
 						title: "6惠国征信徐慧囝总裁应邀参加第八届国际创新管理信息与生产研讨会",
-						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
 					},
 					{
 						typeid: 1,
 						id: "1007",
-						type: "公司动态",
-						date: "2017-05-05",
+						date: "2017-05-22",
 						title: "7惠国征信徐慧囝总裁应邀参加芜湖市“区域金融中心建设与金融人才培养”高层座谈会",
-						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
 					},
 					{
 						typeid: 1,
 						id: "1008",
-						type: "公司动态",
-						date: "2017-05-05",
+						date: "2017-04-10",
 						title: "8惠国征信董事长徐慧囝博士受邀担任芜湖市人社局创业展示活动专家评审",
-						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
 					},
 					{
 						typeid: 1,
 						id: "1009",
-						type: "公司动态",
-						date: "2017-05-05",
+						date: "2017-01-11",
 						title: "9惠国征信率先践行芜湖市政府“校地合作”战略",
-						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
 					},
 					{
 						typeid: 1,
 						id: "1010",
-						type: "公司动态",
-						date: "2016-12-06",
+						date: "2016-12-16",
 						title: "10惠国征信“富媒体大数据深度集成联合实验室”举行揭牌仪式",
-						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
 					},
 					{
 						typeid: 1,
 						id: "1011",
-						type: "公司动态",
-						date: "2017-05-05",
-						title: "11惠国征信率先践行芜湖市政府“校地合作”战略",
-						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
+						date: "2016-12-15",
+						title: "11惠国征信应邀参加内蒙古“一带一路供应链金融大数据论坛",
 					},
 					{
 						typeid: 1,
 						id: "1012",
-						type: "公司动态",
-						date: "2016-12-16",
-						title: "12惠国征信应邀参加内蒙古“一带一路供应链金融大数据论坛”",
-						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
+						date: "2016-12-01",
+						title: "12芜湖市主流媒体同仁莅临惠国征信考察交流",
 					},
 					{
 						typeid: 1,
 						id: "1013",
-						type: "公司动态",
-						date: "2017-05-05",
-						title: "13芜湖市主流媒体同仁莅临惠国征信考察交流",
-						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
+						date: "2016-11-28",
+						title: "13“惠国征信杯”运动会乒乓球、扑克掼蛋比赛圆满落幕",
+					},
+					{
+						typeid: 1,
+						id: "1014",
+						date: "2016-11-24",
+						title: "14“芜湖市中小企业诚信经营联盟”成立大会顺利召开",
+					},
+					{
+						typeid: 1,
+						id: "1015",
+						date: "2016-11-17",
+						title: "15国家社会信用体系建设中期评估组一行莅临惠国征信视察指导",
+					},
+					{
+						typeid: 1,
+						id: "1016",
+						date: "2016-11-11",
+						title: "16惠国征信董事长兼总裁徐慧囝博士获批被正式聘请为ISN国家重点实验室教授",
+					},
+					{
+						typeid: 1,
+						id: "1017",
+						date: "2016-11-09",
+						title: "17邓白氏原亚太区总裁、现任世界银行顾问Lawrence Yee先生访问惠国征信",
+					},
+					{
+						typeid: 1,
+						id: "1018",
+						date: "2016-11-03",
+						title: "18芜湖市公安局网安支队莅临惠国征信指导网络安全工作",
+					},
+					{
+						typeid: 1,
+						id: "1019",
+						date: "2016-11-02",
+						title: "19惠国征信将成为芜湖市信息化协会会员单位",
+					},
+					{
+						typeid: 1,
+						id: "1020",
+						date: "2016-10-31",
+						title: "20惠国征信徐慧囝博士受邀作芜湖市委中心组征信专题报告",
+					},
+					{
+						typeid: 1,
+						id: "1015",
+						date: "2016-10-25",
+						title: "21惠国征信与民强担保共同推动召开“芜湖市中小企业信用担保贷款推介会”",
+					},
+					{
+						typeid: 1,
+						id: "1016",
+						date: "2016-10-25",
+						title: "22惠国征信主导发起成立芜湖市中小企业诚信经营联盟",
 					},
 					{
 						typeid: 1,
 						id: "1009",
-						type: "公司动态",
-						date: "2017-05-05",
-						title: "14惠国征信率先践行芜湖市政府“校地合作”战略",
-						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
+						date: "2016-10-21",
+						title: "23徐慧囝总裁领军惠国征信，荣获中国大数据领域重磅奖项",
 					},
 					{
 						typeid: 1,
-						id: "1009",
-						type: "公司动态",
-						date: "2017-05-05",
-						title: "15惠国征信率先践行芜湖市政府“校地合作”战略",
-						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
-					},
-					{
-						typeid: 1,
-						id: "1009",
-						type: "公司动态",
-						date: "2017-05-05",
-						title: "16惠国征信率先践行芜湖市政府“校地合作”战略",
-						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
-					},
-					{
-						typeid: 1,
-						id: "1009",
-						type: "公司动态",
-						date: "2017-05-05",
-						title: "17惠国征信率先践行芜湖市政府“校地合作”战略",
-						detail: "公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4公司动态4"
+						id: "1015",
+						date: "2016-08-25",
+						title: "24潘市长会见惠国征信服务有限公司",
 					}
 				],
 				newsDetail: {}
@@ -228,7 +236,7 @@
 		.news-wrapper {
 			li {
 				font-size: 16px;
-				border-bottom: 1px #7d7a74 dashed;
+				border-bottom: 1px #7d7a74 dotted;
 				color: #7d7a74;
 				padding-bottom: 12px;
 				text-indent: 1.5em;

@@ -1,5 +1,5 @@
 <template>
-	<div class="detail_3">
+	<div class="detail_8">
 		<div class="header">惠国征信董事长徐慧囝博士受邀担任芜湖市人社局创业展示活动专家评审</div>
 		<div class="nav">
 			<p class="left">发布日期：2017-04-10</p>
@@ -57,7 +57,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .detail_3 {
+  .detail_8 {
   	   .hr1{
   	   	    margin-top: 40px;
 		    margin-bottom: 10px;

@@ -1,5 +1,5 @@
 <template>
-	<div class="detail_3">
+	<div class="detail_6">
 		<div class="header">惠国征信徐慧囝总裁应邀参加第八届国际创新管理信息与生产研讨会</div>
 		<div class="nav">
 			<p class="left">发布日期：2017-06-02</p>
@@ -41,7 +41,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .detail_3 {
+  .detail_6 {
   	   .hr1{
   	   	    margin-top: 40px;
 		    margin-bottom: 10px;

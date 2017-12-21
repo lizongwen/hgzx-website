@@ -1,40 +1,42 @@
 <template>
 	<div class="detail_3">
-		<div class="header">芜湖市政府发布中小企业信用贷试点工作实施意见</div>
+		<div class="header">惠国征信董事长兼总裁徐慧囝博士应邀参加台州市第三期大数据论坛</div>
 		<div class="nav">
-			<p class="left">发布日期：2017-07-12</p>
+			<p class="left">发布日期：2017-07-07</p>
 			<p class="right">发布人：惠国征信</p>
 		</div>
 		<div class="hr1"></div>
-		<div class="p1">为更好的实现信用贷项目的落地和执行，提高团队整体专业技能，拓宽学习和工作思路，2017年8月4日下午，惠国征信开展了《建模方法论之——SEMMA建模路径》内部专题培训，由董事长兼总裁徐慧囝博士全程授课，并邀请了芜湖市信用办、市社会信用服务中心、市大数据管理中心相关领导莅临公司指导交流。</div>
-		<!--<div class="p1">背景：全国信用体系建设进入新高潮</div>-->
-		<div class="p1">为进一步深化金融改革，提升金融服务实体经济发展能力，有效化解中小企业融资难、融资贵问题，市政府经研究，决定在我市开展中小企业信用贷款试点工作，并于2017年7月10日发布了《芜湖市人民政府关于中小企业信用贷试点工作的实施意见》（芜政秘〔2017〕161 号），对中小企业信用贷试点工作实施提出规范意见</div>
-		<div class="p1">意见中提到，试点期暂定两年（2017 年—2018 年）。到 2017 年末，力争参加试点的企业超过 500 家，实现融资 10 亿元左右，初步构建中小企业信用融资新机制；到2018年末，力争参加试点的企业超过1000家，实现融资 20 亿元以上，基本建成基于大数据的信用融资新模式。在我市注册登记、具有独立法人资格、符合我市产业发展政策且有新增贷款需求的中小企业均可参加试点。单户企业授信贷款额度原则上不超过 2000 万元，限于流动资金贷款，期限不超过 1 年。</div>
-		<div class="p1">意见中还提到，引进或培育2家以上在我市设立具有独立法人资格的大数据征信服务机构，鼓励其按照市场化原则参与中小企业信用贷试点工作，不断完善评级模型及方法，为企业提供方便、快捷的征信服务，出具客观、真实的信用评级报告，作为合作银行授信的主要依据。这就意味着，基于大数据征信的信用贷融资模式将在我市开启创新融资新篇章。</div>
-		<div class="p1">惠国征信作为在芜湖市设立的以金融大数据和商业物联网大数据为基础的综合性征信服务机构，自2016年7月成立以来，积极打造中小企业大数据融资综合服务平台，为配合芜湖市深化金融改革、创新企业融资体系和促进经济社会发展升级奠定了良好的基础，并将全力服务芜湖市政府做好中小企业信用贷试点工作。</div>
-		<div class="p1">以下为“意见”全文：</div>
+		<p class="p1">2017年7月6日晚，台州市“大数据”第3期论坛《信用大数据》会议在台州市应急指挥中心大楼三楼大厅举办，本次活动是台州市应急指挥中心大楼建成首次启用，台州市发改委徐贤军副主任，市经信委信息化处王锦林处长，李林欢副处长，市政府应急办陈炜华主任，市委市政府信息中心陈友增主任参加会议。本次活动由浙江移动台州分公司，台州市信息化促进会共同主办。</p>
 		<div class="img"><img :src="detail_31" /></div>
 		<div class="img"><img :src="detail_32" /></div>
+		<p class="p1">惠国征信服务股份有限公司董事长兼总裁徐慧囝博士应邀出席会议，并与现场专家分享了大数据在风险管理中的应用、大数据基础设施和条件的达成路径、国外领先实践的经验与问题、中小微金融服务关键难题及解决思路，并介绍了几个鲜活的案例，最后为台州的大数据发展提供了建设技术路径的建议，具有很强的指导意义。</p>
 		<div class="img"><img :src="detail_33" /></div>
 		<div class="img"><img :src="detail_34" /></div>
+		<p class="p3">惠国征信董事长兼总裁徐慧囝博士“大数据信用评级的理论与实践”主题演讲</p>
+		<p class="p1">下面来看会议精彩瞬间：</p>
 		<div class="img"><img :src="detail_35" /></div>
+		<p class="p3">台州市委市政府信息中心陈友增主任与大家分享学习大数据心得</p>
 		<div class="img"><img :src="detail_36" /></div>
+		<p class="p3">浙江大学专家朱华飞教授“大数据安全与可持续发展产业”主题演讲</p>
 		<div class="img"><img :src="detail_37" /></div>
+		<p class="p3" >移动专家云枫“台州信用大数据平台建设及应用实践”主题演讲</p>
+		
+
 		<div class="hr2"></div>
 	</div>
 </template>
 
 <script>
-import detail_31 from './img/hangye12-1.jpeg';
-import detail_32 from './img/hangye12-2.jpeg';
-import detail_33 from './img/hangye12-3.jpeg';
-import detail_34 from './img/hangye12-4.jpeg';
-import detail_35 from './img/hangye12-5.jpeg';
-import detail_36 from './img/hangye12-6.jpeg';
-import detail_37 from './img/hangye12-7.jpeg';
-export default {
-	props:['newsDetail'],
-	data: function() {
+	import detail_31 from './img/new22-1.jpeg';
+	import detail_32 from './img/new22-2.jpeg';
+	import detail_33 from './img/new22-3.jpeg';
+	import detail_34 from './img/new22-4.jpeg';
+	import detail_35 from './img/new22-5.jpeg';
+	import detail_36 from './img/new22-6.jpeg';
+	import detail_37 from './img/new22-7.jpeg';
+	export default {
+		props: ['newsDetail'],
+		data: function() {
 			return {
 				detail_31: detail_31,
 				detail_32: detail_32,
@@ -43,23 +45,23 @@ export default {
 				detail_35: detail_35,
 				detail_36: detail_36,
 				detail_37: detail_37,
-				
+
 			};
 		},
-};
+	};
 </script>
 
 <style lang="less" scoped>
-  .detail_3 {
-  	   .hr1{
-  	   	    margin-top: 40px;
-		    margin-bottom: 10px;
-		    border: 0;
-		    border-top: 1px solid #eee;
+	.detail_3 {
+		.hr1 {
+			margin-top: 40px;
+			margin-bottom: 10px;
+			border: 0;
+			border-top: 1px solid #eee;
 		}
 		.header {
 			font-size: 18px;
-			text-align:center;
+			text-align: center;
 			margin-bottom: 5px;
 			color: #b62a31;
 		}
@@ -67,8 +69,8 @@ export default {
 			width: 400px;
 			color: #888;
 			margin: 0 auto;
-		    font-size: 12px;
-		    .left {
+			font-size: 12px;
+			.left {
 				float: left;
 				padding-left: 15px;
 			}
@@ -77,28 +79,31 @@ export default {
 				padding-right: 15px;
 			}
 		}
-		.img{
-		  	/*height: 430px;*/
-		  	text-align: center;
+		.img {
+			/*height: 430px;*/
+			text-align: center;
 		}
-		.p1{
-			font-size:14px;
-		  	text-indent: 2em;
-		  	padding-bottom:5px ;
-		  	line-height: 1.75;
-		  	color: #888;
+		.p1 {
+			font-size: 14px;
+			text-indent: 2em;
+			padding-bottom: 5px;
+			line-height: 1.75;
+			color: #888;
 		}
-		.p2{
-			font-size:14px;
-		  	text-align: center;
-		  	
+		.p2 {
+			font-size: 14px;
+			text-align: center;
 		}
-		.hr2{
-  	   	    margin-top: 20px;
-		    margin-bottom: 10px;
-		    border: 0;
-		    border-top: 1px solid #eee;
+		.p3 {
+			font-size: 12px;
+			text-align: center;
+			color:  #c8c8c8;
+		}
+		.hr2 {
+			margin-top: 20px;
+			margin-bottom: 10px;
+			border: 0;
+			border-top: 1px solid #eee;
 		}
 	}
 </style>
-

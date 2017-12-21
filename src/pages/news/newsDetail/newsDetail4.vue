@@ -1,5 +1,5 @@
 <template>
-	<div class="detail_3">
+	<div class="detail_4">
 		<div class="header">热烈祝贺惠国征信中标芜湖市信用服务应用平台建设项目</div>
 		<div class="nav">
 			<p class="left">发布日期：2017-06-13</p>
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .detail_3 {
+  .detail_4{
   	   .hr1{
   	   	    margin-top: 40px;
 		    margin-bottom: 10px;

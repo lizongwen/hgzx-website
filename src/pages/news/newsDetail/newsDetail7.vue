@@ -1,5 +1,5 @@
 <template>
-	<div class="detail_3">
+	<div class="detail_7">
 		<div class="header">惠国征信徐慧囝总裁应邀参加芜湖市“区域金融中心建设与金融人才培养”高层座谈会</div>
 		<div class="nav">
 			<p class="left">发布日期：2017-06-13</p>
@@ -7,7 +7,7 @@
 		</div>
 		<div class="hr1"></div>
 		<div class="p1">2017年5月20日，由芜湖市人民政府、安徽工程大学主办，芜湖市金融办、芜湖市金融学会、安徽工程大学数理学院承办的"芜湖区域金融中心建设与金融人才培养高层座谈会"隆重举办，近300名省内外专家学者、政府官员、金融学会会员、安工程师生参加了座谈会。</div>
-		<div class="img"><img :src="detail_81" /></div>
+		<div class="img"><img :src="detail_71" /></div>
 		<div class="p2">中共芜湖市市委常委、副市长曹哨兵致辞发言</div>
 		<div class="p1">惠国征信董事长兼总裁徐慧囝博士受邀参加座谈会，并做“数里烁金—大数据信用评级的理论与实践”专题演讲，阐述了大数据从过去作为商业智能在企业经营管理层面的广泛应用，过渡到成为一种资产广泛应用于经济社会的各个领域，且将成为未来社会的趋势和主流。同时，他还从互联网+大数据征信、中小微企业金融征信两个领域内大数据的实践与应用，阐述了惠国征信在中小微企业信用服务中评级模型的设计思路和具体对策，以及核心金融技术的应用实践与前景，赢得与会嘉宾高度赞赏。</div>
 		<div class="img"><img :src="detail_72" /></div>
@@ -34,7 +34,7 @@
 </template>
 
 <script>
-	import detail_81 from './img/new17-1.jpg';
+	import detail_71 from './img/new18-1.jpg';
 	import detail_72 from './img/new18-2.jpg';
 	import detail_73 from './img/new18-3.jpg';
 	import detail_74 from './img/new18-4.jpg';
@@ -47,7 +47,7 @@
 		props: ['newsDetail'],
 		data: function() {
 			return {
-				detail_81: detail_81,
+				detail_71: detail_71,
 				detail_72: detail_72,
 				detail_73: detail_73,
 				detail_74: detail_74,
@@ -64,7 +64,7 @@
 </script>
 
 <style lang="less" scoped>
-	.detail_3 {
+	.detail_7 {
 		.hr1 {
 			margin-top: 40px;
 			margin-bottom: 10px;

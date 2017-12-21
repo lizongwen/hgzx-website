@@ -1,5 +1,5 @@
 <template>
-	<div class="detail_3">
+	<div class="detail_9">
 		<div class="header">惠国征信率先践行芜湖市政府“校地合作”战略</div>
 		<div class="nav">
 			<p class="left">发布日期：2017-01-11</p>
@@ -55,7 +55,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  .detail_3 {
+  .detail_9 {
   	   .hr1{
   	   	    margin-top: 40px;
 		    margin-bottom: 10px;
@@ -63,10 +63,10 @@ export default {
 		    border-top: 1px solid #eee;
 		}
 		.header {
-			width: 600px;
-			font-size: 24px;
-			margin: 0 auto;
+			font-size: 18px;
+			text-align:center;
 			margin-bottom: 5px;
+			color: #b62a31;
 		}
 		.nav {
 			width:600px;
