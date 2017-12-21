@@ -25,10 +25,10 @@
 	import newsDetail9 from "./newsDetail/newsDetail9";
 	import newsDetail10 from "./newsDetail/newsDetail10";
 	import newsDetail11 from "./newsDetail/newsDetail11";
-		import newsDetail12 from "./newsDetail/newsDetail12";
-	//	import newsDetail13 from "./newsDetail/newsDetail13";
-	//	import newsDetail14 from "./newsDetail/newsDetail14";
-	//	import newsDetail15 from "./newsDetail/newsDetail15";
+	import newsDetail12 from "./newsDetail/newsDetail12";
+	import newsDetail13 from "./newsDetail/newsDetail13";
+	import newsDetail14 from "./newsDetail/newsDetail14";
+	import newsDetail15 from "./newsDetail/newsDetail15";
 	//	import newsDetail16 from "./newsDetail/newsDetail16";
 	//	import newsDetail17 from "./newsDetail/newsDetail17";
 	//	import newsDetail18 from "./newsDetail/newsDetail18";
@@ -46,10 +46,10 @@
 			newsDetail9: newsDetail9,
 			newsDetail10: newsDetail10,
 			newsDetail11: newsDetail11,
-						newsDetail12: newsDetail12,
-			//			newsDetail13: newsDetail13,
-			//			newsDetail14: newsDetail14
-			//			newsDetail15: newsDetail15,
+			newsDetail12: newsDetail12,
+			newsDetail13: newsDetail13,
+			newsDetail14: newsDetail14,
+			newsDetail15: newsDetail15,
 			//			newsDetail16: newsDetail16,
 			//			newsDetail17: newsDetail17,
 			//			newsDetail18: newsDetail18
