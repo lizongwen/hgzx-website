@@ -14,10 +14,10 @@
 </template>
 
 <script>
-	import newsDetail1 from "./newsDetail/newsDetail1";
-	import newsDetail2 from "./newsDetail/newsDetail2";
-	import newsDetail3 from "./newsDetail/newsDetail3";
-	import newsDetail4 from "./newsDetail/newsDetail4";
+	import newsDetail1 from "./topic/newsDetail1";
+	import newsDetail2 from "./topic/newsDetail2";
+	import newsDetail3 from "./topic/newsDetail3";
+	import newsDetail4 from "./topic/newsDetail4";
 	export default {
 		name: "company-news",
 		components: {
