@@ -1,67 +1,68 @@
 <template>
-	<div class="detail_3">
-		<div class="header">热烈祝贺惠国征信中标芜湖市信用服务应用平台建设项目</div>
+	<div class="detail_17">
+		<div class="header">邓白氏原亚太区总裁、现任世界银行顾问Lawrence Yee先生访问惠国征信</div>
 		<div class="nav">
-			<p class="left">发布日期：2017-06-13</p>
+			<p class="left">发布日期：2016-11-09</p>
 			<p class="right">发布人：惠国征信</p>
 		</div>
 		<div class="hr1"></div>
-		<!--<div class="p1">背景：全国信用体系建设进入新高潮</div>-->
-		<div class="p1">2017年6月，继中标芜湖市互联网金融在线综合监管平台建设项目后，惠国征信又一次凭借丰富的项目建设经验、雄厚的技术力量和良好的企业信誉，顺利中标芜湖市信用服务应用平台建设项目。该项目招标机构是芜湖市信息资源管理中心，中标公告已于2017年6月23日发布于芜湖市公共资源交易中心官网。</div>
-		<div class="p1">2015年7月，国家发展改革委、中国人民银行联合发文，将芜湖市等11个城市列为全国首批创建社会信用体系建设示范城市。要求建立健全社会信用奖惩联动机制，使守信者得到激励和奖励，失信者受到制约和惩戒；创建信用新型监管体系，通过信用大数据分析，帮助市场监管部门开展精准监管、主动监管，帮助决策部门监测宏观信用运营情况。</div>
-		<div class="p1">2016年芜湖市初步完成了社会信用的基础建设，通过建设“信用芜湖”网站、公共信用信息数据库、公共信用信息服务平台，已达到社会信用信息的归集和公示作用。同时，社管二期的建设，打通了部门和部门、部门和群众之间沟通的渠道，也是信用政策实施的载体。但是在守信正向激励、失信联合惩戒方面还缺乏有效的应用服务，需要通过建设社会信用服务应用平台建设，依托大数据、物联网等先进的技术和创新型的信用服务，建立完整有效的社会信用体系，同时顺利完成创建社会信用体系建设示范城市验收。 因此，建立多部门、跨地区信用联合奖惩机制，通过信用信息交换共享，实现多部门、跨地区信用奖惩联动，使守信者处处受益、失信者寸步难行的工作，势在必行。</div>
-		<div class="p1">建设芜湖市信用服务应用平台，其重要意义在于鼓励和引导法人、自然人及其他组织在经济社会活动中广泛使用信用信息，强化守信正向激励和失信联合惩戒，突出构建以信用为核心的综合监管新机制，探索信用产品市场化应用，引导培育信用服务产业以及后续推行信用信息跨区域合作。</div>
-		<div class="p1">惠国征信将采用先进成熟的技术满足系统各种应用的需求，兼顾其他相关的管理需求，保证满足各种应用系统业务的同时，又体现出硬件系统、软件系统的先进性。通过互联互通，构建数据采集平台；全面梳理，整合信用主体数据；齐抓共管，建立信用应用长效机制，全面保障芜湖市信用服务应用平台项目的建设工作。</div>
-		<div class="p1">以下为“意见”全文：</div>
+		<p class="p1">邓白氏原亚太区总裁、现任世界银行顾问、国际信息行业协会董事、香港产业孵化基金会主席Lawrence Yee先生于11月9日访问惠国征信服务股份有限公司。</p>
+		<div class="img"><img :src="detail_171" /></div>
+		<p class="p3">Lawrence先生与惠国征信全体员工合影</p>
+		<p class="p1">芜湖市委副书记、市政府市长潘朝晖同志亲切会见了Lawrence先生，代表芜湖市政府对Lawrence先生的到来表示热烈欢迎。惠国征信徐慧囝总裁陪同潘市长会见，并率领公司高管团队对Lawrence先生进行热情接待。</p>
+		<p class="p1">Lawrence先生代表邓白氏集团，受香港金融管理局委托, 亲自创立了香港中小企业征信局和 泰国国家征信局。从2002年起，Lawrence先生协助中国人民银行建设运营征信管理局, 并直接参与了《征信业管理条例》的立法工作，最早于1996年, 陪同邓白氏国际业务部总裁 Joachim Bartels先生参与了与朱镕基总理的会谈，为推动中国的征信行业开放、加入WTO扫清金融基础设施建设的法律障碍。</p>
+		<div class="img"><img :src="detail_172" /></div>
+		<p class="p3">1996年,朱镕基总理与邓白氏国际业务部总裁 Joachim Bartels先生会谈</p>
+		<p class="p1">Lawrence先生对芜湖市创建社会信用体系建设示范城市所做的工作表示积极的认同和赞赏，并表示信用体系建设是大势所趋，社会信用体系的建立和完善是我国社会主义市场经济不断走向成熟的重要标志之一。</p>
+		<p class="p1">Lawrence先生在访问惠国征信时，对惠国征信的成立表示祝贺，并对徐慧囝总裁带领惠国征信团队在成立初期所做的一系列征信工作表示大加赞赏。在参观时，恰逢公司正在举办11月员工生日会，Lawrence先生亲切和大家一起为员工过生日，对惠国征信和谐的企业文化氛围表示非常肯定，并预祝惠国征信在徐慧囝总裁的坚强带领下大展宏图，不断创造佳绩。</p>
+		<div class="img"><img :src="detail_173" /></div>
+		<div class="img"><img :src="detail_174" /></div>
+		<div class="img"><img :src="detail_175" /></div>
+		<p class="p3">Lawrence先生亲切参加惠国征信员工生日会</p>
 		<div class="hr2"></div>
 	</div>
 </template>
 
 <script>
-import detail_31 from './img/hangye12-1.jpeg';
-import detail_32 from './img/hangye12-2.jpeg';
-import detail_33 from './img/hangye12-3.jpeg';
-import detail_34 from './img/hangye12-4.jpeg';
-import detail_35 from './img/hangye12-5.jpeg';
-import detail_36 from './img/hangye12-6.jpeg';
-import detail_37 from './img/hangye12-7.jpeg';
-export default {
-	props:['newsDetail'],
-	data: function() {
+	import detail_171 from './img/new8-1.jpg';
+	import detail_172 from './img/new8-2.jpg';
+	import detail_173 from './img/new8-3.jpg';
+	import detail_174 from './img/new8-4.jpg';
+	import detail_175 from './img/new8-5.jpg';
+	export default {
+		props: ['newsDetail'],
+		data: function() {
 			return {
-				detail_31: detail_31,
-				detail_32: detail_32,
-				detail_33: detail_33,
-				detail_34: detail_34,
-				detail_35: detail_35,
-				detail_36: detail_36,
-				detail_37: detail_37,
-				
+				detail_171: detail_171,
+				detail_172: detail_172,
+				detail_173: detail_173,
+				detail_174: detail_174,
+				detail_175: detail_175,
 			};
 		},
-};
+	};
 </script>
 
 <style lang="less" scoped>
-  .detail_3 {
-  	   .hr1{
-  	   	    margin-top: 40px;
-		    margin-bottom: 10px;
-		    border: 0;
-		    border-top: 1px solid #eee;
+	.detail_17 {
+		.hr1 {
+			margin-top: 40px;
+			margin-bottom: 10px;
+			border: 0;
+			border-top: 1px solid #eee;
 		}
 		.header {
-			width: 600px;
-			font-size: 24px;
-			margin: 0 auto;
+			font-size: 18px;
+			text-align: center;
 			margin-bottom: 5px;
+			color: #b62a31;
 		}
 		.nav {
-			width:600px;
+			width: 550px;
 			color: #31708f;
 			margin: 0 auto;
-		    font-size: 12px;
-		    .left {
+			font-size: 12px;
+			.left {
 				float: left;
 				padding-left: 15px;
 			}
@@ -70,28 +71,31 @@ export default {
 				padding-right: 15px;
 			}
 		}
-		.img{
-		  	/*height: 430px;*/
-		  	text-align: center;
+		.img {
+			width: 320px;
+			margin: 0 auto;
 		}
-		.p1{
-			font-size:14px;
-		  	text-indent: 2em;
-		  	padding-bottom:5px ;
-		  	line-height: 1.75;
-		  	color: #888;
+		.p1 {
+			font-size: 14px;
+			text-indent: 2em;
+			padding-bottom: 5px;
+			line-height: 1.75;
+			color: #888;
 		}
-		.p2{
-			font-size:14px;
-		  	text-align: center;
-		  	
+		.p2 {
+			font-size: 14px;
+			text-align: center;
 		}
-		.hr2{
-  	   	    margin-top: 20px;
-		    margin-bottom: 10px;
-		    border: 0;
-		    border-top: 1px solid #eee;
+		.p3 {
+			font-size: 12px;
+			text-align: center;
+			color: #c8c8c8;
+		}
+		.hr2 {
+			margin-top: 20px;
+			margin-bottom: 10px;
+			border: 0;
+			border-top: 1px solid #eee;
 		}
 	}
 </style>
-

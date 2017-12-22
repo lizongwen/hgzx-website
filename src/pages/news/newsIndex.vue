@@ -29,9 +29,15 @@
 	import newsDetail13 from "./newsDetail/newsDetail13";
 	import newsDetail14 from "./newsDetail/newsDetail14";
 	import newsDetail15 from "./newsDetail/newsDetail15";
-	//	import newsDetail16 from "./newsDetail/newsDetail16";
-	//	import newsDetail17 from "./newsDetail/newsDetail17";
-	//	import newsDetail18 from "./newsDetail/newsDetail18";
+	import newsDetail16 from "./newsDetail/newsDetail16";
+	import newsDetail17 from "./newsDetail/newsDetail17";
+	import newsDetail18 from "./newsDetail/newsDetail18";
+	import newsDetail19 from "./newsDetail/newsDetail19";
+	import newsDetail20 from "./newsDetail/newsDetail20";
+	import newsDetail21 from "./newsDetail/newsDetail21";
+	import newsDetail22 from "./newsDetail/newsDetail22";
+	import newsDetail23 from "./newsDetail/newsDetail23";
+	import newsDetail24 from "./newsDetail/newsDetail24";
 	export default {
 		name: "company-news",
 		components: {
@@ -50,9 +56,15 @@
 			newsDetail13: newsDetail13,
 			newsDetail14: newsDetail14,
 			newsDetail15: newsDetail15,
-			//			newsDetail16: newsDetail16,
-			//			newsDetail17: newsDetail17,
-			//			newsDetail18: newsDetail18
+			newsDetail16: newsDetail16,
+			newsDetail17: newsDetail17,
+			newsDetail18: newsDetail18,
+			newsDetail19: newsDetail19,
+			newsDetail20: newsDetail20,
+			newsDetail21: newsDetail21,
+			newsDetail22: newsDetail22,
+			newsDetail23: newsDetail23,
+			newsDetail24: newsDetail24,
 		},
 		data: function() {
 			return {
@@ -62,26 +74,26 @@
 						typeid: 1,
 						id: "1001",
 						date: "2017-09-06",
-						title: "1芜湖新闻频道“丹丹面对面”栏目邀请惠国征信徐博士谈征信",
+						title: "芜湖新闻频道“丹丹面对面”栏目邀请惠国征信徐博士谈征信",
 					},
 					{
 						typeid: 1,
 						id: "1002",
 						date: "2017-08-09",
-						title: "2惠国征信举办《建模方法论SEMMA建模路径》培训",
+						title: "惠国征信举办《建模方法论SEMMA建模路径》培训",
 					},
 					{
 						name: "newsDetail3",
 						typeid: 1,
 						id: "1003",
 						date: "2017-07-07",
-						title: "3惠国征信董事长兼总裁徐慧囝博士应邀参加台州市第三期大数据论坛",
+						title: "惠国征信董事长兼总裁徐慧囝博士应邀参加台州市第三期大数据论坛",
 					},
 					{
 						typeid: 1,
 						id: "1004",
 						date: "2017-06-23",
-						title: "4热烈祝贺惠国征信中标芜湖市信用服务应用平台建设项目",
+						title: "热烈祝贺惠国征信中标芜湖市信用服务应用平台建设项目",
 					},
 					{
 						typeid: 1,
@@ -93,43 +105,43 @@
 						typeid: 1,
 						id: "1006",
 						date: "2017-06-02",
-						title: "6惠国征信徐慧囝总裁应邀参加第八届国际创新管理信息与生产研讨会",
+						title: "惠国征信徐慧囝总裁应邀参加第八届国际创新管理信息与生产研讨会",
 					},
 					{
 						typeid: 1,
 						id: "1007",
 						date: "2017-05-22",
-						title: "7惠国征信徐慧囝总裁应邀参加芜湖市“区域金融中心建设与金融人才培养”高层座谈会",
+						title: "惠国征信徐慧囝总裁应邀参加芜湖市“区域金融中心建设与金融人才培养”高层座谈会",
 					},
 					{
 						typeid: 1,
 						id: "1008",
 						date: "2017-04-10",
-						title: "8惠国征信董事长徐慧囝博士受邀担任芜湖市人社局创业展示活动专家评审",
+						title: "惠国征信董事长徐慧囝博士受邀担任芜湖市人社局创业展示活动专家评审",
 					},
 					{
 						typeid: 1,
 						id: "1009",
 						date: "2017-01-11",
-						title: "9惠国征信率先践行芜湖市政府“校地合作”战略",
+						title: "惠国征信率先践行芜湖市政府“校地合作”战略",
 					},
 					{
 						typeid: 1,
 						id: "1010",
 						date: "2016-12-16",
-						title: "10惠国征信“富媒体大数据深度集成联合实验室”举行揭牌仪式",
+						title: "惠国征信“富媒体大数据深度集成联合实验室”举行揭牌仪式",
 					},
 					{
 						typeid: 1,
 						id: "1011",
 						date: "2016-12-15",
-						title: "11惠国征信应邀参加内蒙古“一带一路供应链金融大数据论坛",
+						title: "惠国征信应邀参加内蒙古“一带一路供应链金融大数据论坛",
 					},
 					{
 						typeid: 1,
 						id: "1012",
 						date: "2016-12-01",
-						title: "12芜湖市主流媒体同仁莅临惠国征信考察交流",
+						title: "芜湖市主流媒体同仁莅临惠国征信考察交流",
 					},
 					{
 						typeid: 1,
@@ -141,7 +153,7 @@
 						typeid: 1,
 						id: "1014",
 						date: "2016-11-24",
-						title: "14“芜湖市中小企业诚信经营联盟”成立大会顺利召开",
+						title: "“芜湖市中小企业诚信经营联盟”成立大会顺利召开",
 					},
 					{
 						typeid: 1,
@@ -153,55 +165,55 @@
 						typeid: 1,
 						id: "1016",
 						date: "2016-11-11",
-						title: "16惠国征信董事长兼总裁徐慧囝博士获批被正式聘请为ISN国家重点实验室教授",
+						title: "惠国征信董事长兼总裁徐慧囝博士获批被正式聘请为ISN国家重点实验室教授",
 					},
 					{
 						typeid: 1,
 						id: "1017",
 						date: "2016-11-09",
-						title: "17邓白氏原亚太区总裁、现任世界银行顾问Lawrence Yee先生访问惠国征信",
+						title: "邓白氏原亚太区总裁、现任世界银行顾问Lawrence Yee先生访问惠国征信",
 					},
 					{
 						typeid: 1,
 						id: "1018",
 						date: "2016-11-03",
-						title: "18芜湖市公安局网安支队莅临惠国征信指导网络安全工作",
+						title: "芜湖市公安局网安支队莅临惠国征信指导网络安全工作",
 					},
 					{
 						typeid: 1,
 						id: "1019",
 						date: "2016-11-02",
-						title: "19惠国征信将成为芜湖市信息化协会会员单位",
+						title: "惠国征信将成为芜湖市信息化协会会员单位",
 					},
 					{
 						typeid: 1,
 						id: "1020",
 						date: "2016-10-31",
-						title: "20惠国征信徐慧囝博士受邀作芜湖市委中心组征信专题报告",
+						title: "惠国征信徐慧囝博士受邀作芜湖市委中心组征信专题报告",
 					},
 					{
 						typeid: 1,
 						id: "1015",
 						date: "2016-10-25",
-						title: "21惠国征信与民强担保共同推动召开“芜湖市中小企业信用担保贷款推介会”",
+						title: "惠国征信与民强担保共同推动召开“芜湖市中小企业信用担保贷款推介会”",
 					},
 					{
 						typeid: 1,
 						id: "1016",
 						date: "2016-10-25",
-						title: "22惠国征信主导发起成立芜湖市中小企业诚信经营联盟",
+						title: "惠国征信主导发起成立芜湖市中小企业诚信经营联盟",
 					},
 					{
 						typeid: 1,
 						id: "1009",
 						date: "2016-10-21",
-						title: "23徐慧囝总裁领军惠国征信，荣获中国大数据领域重磅奖项",
+						title: "徐慧囝总裁领军惠国征信，荣获中国大数据领域重磅奖项",
 					},
 					{
 						typeid: 1,
 						id: "1015",
 						date: "2016-08-25",
-						title: "24潘市长会见惠国征信服务有限公司",
+						title: "潘市长会见惠国征信服务有限公司",
 					}
 				],
 				newsDetail: {}

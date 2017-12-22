@@ -1,67 +1,79 @@
 <template>
-	<div class="detail_3">
-		<div class="header">热烈祝贺惠国征信中标芜湖市信用服务应用平台建设项目</div>
+	<div class="detail_16">
+		<div class="header">惠国征信董事长兼总裁徐慧囝博士获批被正式聘请为ISN国家重点实验室教授</div>
 		<div class="nav">
-			<p class="left">发布日期：2017-06-13</p>
+			<p class="left">发布日期：2016-11-11</p>
 			<p class="right">发布人：惠国征信</p>
 		</div>
 		<div class="hr1"></div>
-		<!--<div class="p1">背景：全国信用体系建设进入新高潮</div>-->
-		<div class="p1">2017年6月，继中标芜湖市互联网金融在线综合监管平台建设项目后，惠国征信又一次凭借丰富的项目建设经验、雄厚的技术力量和良好的企业信誉，顺利中标芜湖市信用服务应用平台建设项目。该项目招标机构是芜湖市信息资源管理中心，中标公告已于2017年6月23日发布于芜湖市公共资源交易中心官网。</div>
-		<div class="p1">2015年7月，国家发展改革委、中国人民银行联合发文，将芜湖市等11个城市列为全国首批创建社会信用体系建设示范城市。要求建立健全社会信用奖惩联动机制，使守信者得到激励和奖励，失信者受到制约和惩戒；创建信用新型监管体系，通过信用大数据分析，帮助市场监管部门开展精准监管、主动监管，帮助决策部门监测宏观信用运营情况。</div>
-		<div class="p1">2016年芜湖市初步完成了社会信用的基础建设，通过建设“信用芜湖”网站、公共信用信息数据库、公共信用信息服务平台，已达到社会信用信息的归集和公示作用。同时，社管二期的建设，打通了部门和部门、部门和群众之间沟通的渠道，也是信用政策实施的载体。但是在守信正向激励、失信联合惩戒方面还缺乏有效的应用服务，需要通过建设社会信用服务应用平台建设，依托大数据、物联网等先进的技术和创新型的信用服务，建立完整有效的社会信用体系，同时顺利完成创建社会信用体系建设示范城市验收。 因此，建立多部门、跨地区信用联合奖惩机制，通过信用信息交换共享，实现多部门、跨地区信用奖惩联动，使守信者处处受益、失信者寸步难行的工作，势在必行。</div>
-		<div class="p1">建设芜湖市信用服务应用平台，其重要意义在于鼓励和引导法人、自然人及其他组织在经济社会活动中广泛使用信用信息，强化守信正向激励和失信联合惩戒，突出构建以信用为核心的综合监管新机制，探索信用产品市场化应用，引导培育信用服务产业以及后续推行信用信息跨区域合作。</div>
-		<div class="p1">惠国征信将采用先进成熟的技术满足系统各种应用的需求，兼顾其他相关的管理需求，保证满足各种应用系统业务的同时，又体现出硬件系统、软件系统的先进性。通过互联互通，构建数据采集平台；全面梳理，整合信用主体数据；齐抓共管，建立信用应用长效机制，全面保障芜湖市信用服务应用平台项目的建设工作。</div>
-		<div class="p1">以下为“意见”全文：</div>
-		<div class="hr2"></div>
+		<p class="p2">国家ISN综合业务网理论及关键技术重点实验室</p>
+		<p class="p1">国家ISN综合业务网理论及关键技术重点实验室于1989年由国家计委批准立，1991年开始建设，1995年10月通过国家验收，并正式投入开放运行。现任实验室主任高新波教授，学术委员会主任于全院士。</p>
+		<p class="p1">实验室依托信息与通信工程、网络空间安全以及军队指挥学三个国家一级学科，目前主要研究方向包括“通信网络体系架构及关键技术”，“高效信源和信道编码技术”，“信息传输理论与技术”，“信息安全及密码理论与技术”。作为我国通信领域唯一的国家重点实验室，取得了许多具有国际国内领先水平的科研成果。</p>
+		<div class="img"><img :src="detail_161" /></div>
+		<p class="p1">2004年，ISN承研“嫦娥一号”实时干涉多光谱图像压缩系统，2007年随着“嫦娥一号”成功发射并传回清晰图像，我国第一个在深空探测通信系统中应用的高性能图像压缩系统随之诞生。</p>
+		<p class="p1">2010年，“嫦娥二号”发射升空，ISN在国际深空探测领域首次研制了压缩比在线可调、码率精确可控的高可靠实时立体图像压缩硬件系统，确保了“嫦娥二号”在6个月时间内获得高分辨率全月面立体图像这一重大科学任务的顺利完成。该项成果也获得2012年度国家科技进步二等奖。</p>
+		<p class="p1">2016年9月15日，“天宫二号”空间实验室发射成功，ISN实验室承研了“天宫二号”伴随卫星的星载图像压缩系统，对“天宫二号”与神舟11号组合体进行高分辨率成像，提供空间试验的在轨任务高清图像记录，为主航天器的工作状态、空间活动等提供直接的影像技术支持，属于当今世界最前沿的探索领域，为中国航天事业不断向前发展做出又一贡献。</p>
+		<p class="p2">惠国征信徐慧囝博士获批被正式聘请为国家ISN重点实验室教授</p>
+		<p class="p1">惠国征信董事长兼总裁徐慧囝博士，于2016年11月获批被ISN国家重点实验室正式聘请为教授，重点参与实验室的相关科研工作，为国家科技进步做出贡献。</p>
+		<div class="img"><img :src="detail_162" /></div>
+		<p class="p1">2010年，徐慧囝博士受托于中国人民银行征信管理局，任《征信业管理条例》立法小组顾问（2013年1月21日中华人民共和国国务院令第631号公布文件，自2013年3月15日起在全国范围内施行），全程参与《征信业管理条例》的意见征集、法条制定以及条例发布后的跨国培训工作。同时，他还兼任央行总部上海数据中心外部专家、香港金融管理局中小企业信贷风险研究论坛主讲、香港中小企业征信局运营负责人、上海市银行同业公会新资本协议高级计量班讲师、美国《创新管理应用》学术期刊副主编、复旦大学管理会计硕士项目导师并荣获2015复旦慧眼识才金奖。</p>
+		<div class="img"><img :src="detail_163" /></div>
+		<p class="p1">惠国征信与ISN国家重点实验室联合成立的“富媒体大数据深度集成联合实验室”，其科研团队拥有58名博士，包含长江学者7人、长江讲座教授3人、IEEE Fellow1人，充分保证了惠国征信在行业技术水平上一直保持全国领先层次的核心竞争力。依托顶尖的征信团队和金融征信技术，惠国征信立志打造中国社会信用体系的样板和具有广阔前景的商业征信模式，成为中国最领先的征信机构之一。</p>
+		<p class="p1">基于行为类富媒体大数据征信技术的企业征信以及在中小企业融资领域创新性的研究和实践，惠国征信还被吸纳成为中国首家加入BIIA（亚太征信协会）的正式会员。</p>
+		<div class="img"><img :src="detail_164" /></div>
+		<p class="p1" >在2016年菲律宾马卡蒂召开的亚太经济合作组织（APEC）财长会议上，惠国征信行为类富媒体大数据征信技术被认定为亚太地区最领先行业实践，并被肯定为贯彻2015亚太财长宣言的最重要技术支撑。</p>
+		<div class="img"><img :src="detail_165" /></div>
+		<p class="p1">在2016年泰国曼谷召开的湄公河区域国家间信用信息共享第一次会议上，惠国征信被推选为“一带一路”战略方向上的湄公河流域跨境征信实践试点合作方，将配合国际商业信息行业协会完善中国的跨境数据交换模型。</p>
+		<div class="img"><img :src="detail_166" /></div>
+		<p class="p1">在2016年第三届中国国际大数据大会上，惠国征信荣获“二零一六年度中国大数据领域创新创业奖”，徐慧囝总裁荣获“二零一六年度中国大数据领域创新人物奖”。</p>
+        <div class="hr2"></div>
 	</div>
 </template>
 
 <script>
-import detail_31 from './img/hangye12-1.jpeg';
-import detail_32 from './img/hangye12-2.jpeg';
-import detail_33 from './img/hangye12-3.jpeg';
-import detail_34 from './img/hangye12-4.jpeg';
-import detail_35 from './img/hangye12-5.jpeg';
-import detail_36 from './img/hangye12-6.jpeg';
-import detail_37 from './img/hangye12-7.jpeg';
-export default {
-	props:['newsDetail'],
-	data: function() {
+	import detail_161 from './img/new9-1.jpg';
+	import detail_162 from './img/new9-2.jpg';
+	import detail_163 from './img/new9-3.jpg';
+	import detail_164 from './img/new9-4.jpg';
+	import detail_165 from './img/new9-5.jpg';
+	import detail_166 from './img/new9-6.jpg';
+	export default {
+		props: ['newsDetail'],
+		data: function() {
 			return {
-				detail_31: detail_31,
-				detail_32: detail_32,
-				detail_33: detail_33,
-				detail_34: detail_34,
-				detail_35: detail_35,
-				detail_36: detail_36,
-				detail_37: detail_37,
+				detail_161: detail_161,
+				detail_162: detail_162,
+				detail_163: detail_163,
+				detail_164: detail_164,
+				detail_165: detail_165,
+				detail_166: detail_166,
 				
+
 			};
 		},
-};
+	};
 </script>
 
 <style lang="less" scoped>
-  .detail_3 {
-  	   .hr1{
-  	   	    margin-top: 40px;
-		    margin-bottom: 10px;
-		    border: 0;
-		    border-top: 1px solid #eee;
+	.detail_16 {
+		.hr1 {
+			margin-top: 40px;
+			margin-bottom: 10px;
+			border: 0;
+			border-top: 1px solid #eee;
 		}
 		.header {
-			width: 600px;
-			font-size: 24px;
-			margin: 0 auto;
+			font-size: 18px;
+			text-align: center;
 			margin-bottom: 5px;
+			color: #b62a31;
 		}
 		.nav {
-			width:600px;
+			width: 550px;
 			color: #31708f;
 			margin: 0 auto;
-		    font-size: 12px;
-		    .left {
+			font-size: 12px;
+			.left {
 				float: left;
 				padding-left: 15px;
 			}
@@ -70,28 +82,31 @@ export default {
 				padding-right: 15px;
 			}
 		}
-		.img{
-		  	/*height: 430px;*/
-		  	text-align: center;
+		.img {
+			width: 320px;
+			margin: 0 auto;
 		}
-		.p1{
-			font-size:14px;
-		  	text-indent: 2em;
-		  	padding-bottom:5px ;
-		  	line-height: 1.75;
-		  	color: #888;
+		.p1 {
+			font-size: 14px;
+			text-indent: 2em;
+			padding-bottom: 5px;
+			line-height: 1.75;
+			color: #888;
 		}
-		.p2{
-			font-size:14px;
-		  	text-align: center;
-		  	
+		.p2 {
+			font-size: 14px;
+			text-align: center;
 		}
-		.hr2{
-  	   	    margin-top: 20px;
-		    margin-bottom: 10px;
-		    border: 0;
-		    border-top: 1px solid #eee;
+		.p3 {
+			font-size: 12px;
+			text-align: center;
+			color: #c8c8c8;
+		}
+		.hr2 {
+			margin-top: 20px;
+			margin-bottom: 10px;
+			border: 0;
+			border-top: 1px solid #eee;
 		}
 	}
 </style>
-
