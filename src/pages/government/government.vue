@@ -2,7 +2,7 @@
 	<div class="financial">
 		<div class="main">
 			<div class="top">
-				<span class="text">首页&nbsp;>&nbsp; 金融征信</span>
+				<span class="text">首页&nbsp;>&nbsp; 金融征信&nbsp; > &nbsp;{{current}}</span>
 			</div>
 			<div class="list clearfix">
 				<div class="list-left">
@@ -28,7 +28,7 @@
 					</ul>
 				</div>
 				<div class="list-right">
-					<router-view/>
+					<router-view v-on:setCrumb="setCrumbName" />
 				</div>
 			</div>
 		</div>
@@ -36,14 +36,21 @@
 </template>
 <script>
 export default {
-  name: "financial",
+  name: "government",
   data: function() {
-    return {};
+    return {
+      current: "惠政信用服务平台"
+    };
   },
-   beforeRouteEnter(to, from, next) {
+  beforeRouteEnter(to, from, next) {
     next(vm => {
       vm.$emit("setNav", to.meta.index);
     });
+  },
+  methods: {
+    setCrumbName: function(name) {
+      this.current = name;
+    }
   }
 };
 </script>

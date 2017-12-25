@@ -31,7 +31,9 @@
 				system_1: system_1,
 			};
 		},
-
+        mounted: function() {
+			this.$emit("setCrumb", "社会信用体系建设");
+		}
 	};
 </script>
 

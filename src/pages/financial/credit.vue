@@ -25,7 +25,9 @@
 				credit_1: credit_1,
 			};
 		},
-
+        mounted: function() {
+			this.$emit("setCrumb", "中小型企业信用贷");
+		}
 	};
 </script>
 <style lang="less" scoped>

@@ -25,6 +25,9 @@
 				iot_4: iot_4,
 			};
 		},
+		mounted: function() {
+			this.$emit("setCrumb", "IOT贷后监管平台");
+		}
 
 	};
 </script>

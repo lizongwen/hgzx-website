@@ -68,7 +68,9 @@
 				banking_1: banking_1,
 			};
 		},
-
+       mounted: function() {
+			this.$emit("setCrumb", "金融行业经验");
+		}
 	};
 </script>
 

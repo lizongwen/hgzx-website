@@ -15,6 +15,9 @@
 				benevolent_2: benevolent_2,
 			};
 		},
+		mounted: function() {
+			this.$emit("setCrumb", "惠政信用服务平台");
+		}
 
 	};
 </script>

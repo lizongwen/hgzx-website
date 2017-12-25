@@ -15,7 +15,9 @@
 				supervise_2: supervise_2,
 			};
 		},
-
+        mounted: function() {
+			this.$emit("setCrumb", "互金监管平台");
+		}
 	};
 </script>
 
