@@ -71,18 +71,18 @@
 			text-align: center;
 		}
 		.p1 {
-			font-size: 14px;
+			font-size: 16px;
 			text-indent: 2em;
 			padding-bottom: 5px;
 			line-height: 1.75;
 			color: #888;
 		}
 		.p2 {
-			font-size: 14px;
+			font-size: 16px;
 			text-align: center;
 		}
 		.p3 {
-			font-size: 14px;
+			font-size: 16px;
 			text-align: center;
 			color: #888;
 		}
