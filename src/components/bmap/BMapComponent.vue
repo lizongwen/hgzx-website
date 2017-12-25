@@ -3,6 +3,7 @@
 </template>
 
 <script>
+import position from './position';
 export default {
   data: function() {
     return {
@@ -26,7 +27,7 @@ export default {
     // 纬度
     latitude: {
       type: Number,
-      default: 31.353954
+      default: 31.354554
     },
     description: {
       type: String,
@@ -36,26 +37,17 @@ export default {
   mounted: function() {
     let map = new BMap.Map("allmap");
     let point = new BMap.Point(this.longitude, this.latitude);
-    let marker = new BMap.Marker(point);
+    let myIcon = new BMap.Icon(position,new BMap.Size(40, 60));
+    let marker = new BMap.Marker(point, { icon: myIcon });
     map.addOverlay(marker);
-    map.centerAndZoom(point, 15);
-    // 信息窗的配置信息
-    let opts = {
-      width: 50,
-	  height: 20,
-    //   title: "地址："
-    };
-    let infoWindow = new BMap.InfoWindow(this.description, opts); // 创建信息窗口对象
-    marker.addEventListener("click", function() {
-      map.openInfoWindow(infoWindow, point);
-    });
-    map.enableScrollWheelZoom(true);
-    map.openInfoWindow(infoWindow, point); //开启信息窗口
+    map.centerAndZoom(point, 17);
   }
 };
 </script>
 
-<style lang="less" scoped>
-
+<style lang="less">
+.anchorBL {
+  display: none;
+}
 </style>
 
