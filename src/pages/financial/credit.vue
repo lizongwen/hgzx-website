@@ -31,13 +31,15 @@
 <style lang="less" scoped>
 	.credit {
 		.credit-left {
-			width: 600px;
+			width: 590px;
 			float: left;
 			line-height: 26px;
-			font-size: 14px;
+			font-size: 16px;
 			text-indent: 2em;
+			padding-bottom: 15px;
 		}
 		.credit-right {
+			margin-left: 8px;
 			width: 200px;
 			height: 100%;
 			float: left;
