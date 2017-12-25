@@ -120,7 +120,7 @@
 		}
 		
 		p {
-			font-size: 14px;
+			font-size: 16px;
 			text-indent: 1.5em;
 			padding-bottom: 5px;
 			line-height: 1.75;
