@@ -102,10 +102,9 @@ export default {
           url: "/financial/credit",
           title: "金融征信",
           imgUrl: avatar_index_01,
-          content: `国征信服务股份有限公司（以下简称“惠 国征信”）是由芜湖市政府主导推动，芜湖市信 息办、金融办、
-			信用办联合引领的以国征信服务股份有限公司（以下简称“惠 国征信”）是由芜湖市政府主导推动，
-			芜湖市信 息办、金融办、信用办联合引领的以国征信服务股份有限公司（以下简称“惠 国征信”）
-			是由芜湖市政府主导推动，芜湖市信 息办、金融办、信用办联合引领的以`
+		  content: `围绕进一步深化金融改革，提升金融服务实体经济发展能力，有效化解中小企业融资难、 融资贵问题，
+		  惠国征信以中小企业为服务主体，以企业信用信息为基础，
+		  以大数据技术为依 托，在全市积极促进探索建立“征信机构+银行+担保”的中小企业信用融资新模式。`
         },
         {
           url: "/government/benevolent",
@@ -159,7 +158,6 @@ export default {
     .news,
     .service {
       height: 364px;
-      //   -moz-height: 364px;
       overflow: hidden;
     }
     .about {
@@ -183,7 +181,7 @@ export default {
             overflow: hidden;
             text-overflow: ellipsis;
             display: -webkit-box;
-            -webkit-line-clamp: 3;
+            -webkit-line-clamp: 4;
             -webkit-box-orient: vertical;
           }
         }
