@@ -51,7 +51,7 @@
 				}
 			}
 			.title-small {
-				font-size: 14px;
+				font-size: 16px;
 				padding-bottom: 20px;
 			}
 			.title-small_2 {

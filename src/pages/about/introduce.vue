@@ -29,7 +29,7 @@
 .introduce{
 	margin-bottom: 23px;
   p{
-  	font-size:14px;
+  	font-size:16px;
   	text-indent: 2em;
   	padding-bottom:5px ;
   	line-height: 1.75;
