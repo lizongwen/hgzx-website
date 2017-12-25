@@ -50,10 +50,10 @@
 							<img :src="item.imgUrl">
 						</div>
 						<div class="content">
-							<div class="title">新闻标题</div>
-							<p class="text-indent detail">
-								国征信服务股份有限公司（以下简称“惠 国征信”）是由芜湖市政府主导推动，芜湖市信 息办、金融办、信用办联合引领的以国征信服务股份有限公司（以下简称“惠 国征信”）是由芜湖市政府主导推动，芜湖市信 息办、金融办、信用办联合引领的以国征信服务股份有限公司（以下简称“惠 国征信”）是由芜湖市政府主导推动，芜湖市信 息办、金融办、信用办联合引领的以
-							</p>
+							<router-link :to="item.url">
+								<div class="title">{{item.title}}</div>
+								<p class="text-indent detail">{{item.content}}</p>
+							</router-link>
 						</div>
 					</li>
 				</ul>
@@ -94,17 +94,29 @@ export default {
       ],
       service: [
         {
-          imgUrl: avatar_index_01
+          url: "/financial/credit",
+          title: "金融征信",
+          imgUrl: avatar_index_01,
+          content: `国征信服务股份有限公司（以下简称“惠 国征信”）是由芜湖市政府主导推动，芜湖市信 息办、金融办、
+			信用办联合引领的以国征信服务股份有限公司（以下简称“惠 国征信”）是由芜湖市政府主导推动，
+			芜湖市信 息办、金融办、信用办联合引领的以国征信服务股份有限公司（以下简称“惠 国征信”）
+			是由芜湖市政府主导推动，芜湖市信 息办、金融办、信用办联合引领的以`
         },
         {
-          imgUrl: avatar_index_02
+          url: "/government/benevolent",
+          title: "政务征信",
+          imgUrl: avatar_index_02,
+          content: `国征信服务股份有限公司（以下简称“惠 国征信”）是由芜湖市政府主导推动，芜湖市信 息办、金融办、
+			信用办联合引领的以国征信服务股份有限公司（以下简称“惠 国征信”）是由芜湖市政府主导推动，
+			芜湖市信 息办、金融办、信用办联合引领的以国征信服务股份有限公司（以下简称“惠 国征信”）
+			是由芜湖市政府主导推动，芜湖市信 息办、金融办、信用办联合引领的以`
         }
       ]
     };
   },
   methods: {
     showNews: function(index) {
-      this.$router.push("/news/index/" + index);
+      this.$router.push("/news/index/" + "detail_" + index);
     }
   }
 };
@@ -142,7 +154,7 @@ export default {
     .news,
     .service {
       height: 364px;
-    //   -moz-height: 364px;
+      //   -moz-height: 364px;
       overflow: hidden;
     }
     .about {
@@ -222,8 +234,8 @@ export default {
             font-weight: bold;
           }
           .detail {
-			overflow: hidden;
-			max-height: 141px;
+            overflow: hidden;
+            max-height: 141px;
             line-height: 1.75;
             font-size: 14px;
             text-overflow: ellipsis;
