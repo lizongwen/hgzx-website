@@ -70,11 +70,11 @@
 			color: #888;
 		}
 		.p2 {
-			font-size: 14px;
+			font-size: 16px;
 			text-align: center;
 		}
 		.p3{
-			font-size:14px;
+			font-size: 16px;
 		  	text-align: center;
 		  	color: #888;
 		}
