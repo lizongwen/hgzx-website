@@ -6,6 +6,7 @@
 			<p class="right">发布人：芜湖新闻频道&芜湖综合广播</p>
 		</div>
 		<div class="hr1"></div>
+		<p style="text-align: center"><iframe class="video_iframe" style="z-index:1;" src="http://v.qq.com/iframe/player.html?vid=b0386up1ysq&amp;width=700&amp;height=400&amp;auto=0" allowfullscreen="" frameborder="0" height="400" width="700"></iframe></p>
 		<div class="p1">2015年7月，芜湖市获批成为全国首批创建社会信用体系建设示范城市之一。一年多来，我市把加强社会信用体系建设作为促进城市治理体系和治理能力现代化的重要内容，以创建社会信用体系建设示范城市为抓手，以打造“诚信芜湖”为目标，全力推进社会信用体系建设，取得了初步成效。</div>
 		<div class="p1">在当前的经济发展环境下，中小企业的转型升级面临着多方面的困难，而由于信息不畅通、不对称，中小企业融资难也成为阻碍企业发展的一大难题。由市政府主导、市信息办、金融办等部门联合推动成立于今年7月份的惠国征信股份有限公司给中小企业融资带来了福音。</div>
 		<div class="p1">惠国征信总经理徐慧囝： 我们并行启动了芜湖市中小企业诚信协会，这个协会本身就是入会企业获得金融扶持的绿色通道，体现了企业信用指纹以及企业信用足迹的全过程，用这个制度和体系来保证企业获得相应的便利的融资和金融的扶持。</div>
