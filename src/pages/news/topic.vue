@@ -8,7 +8,7 @@
 		</ul>
 		<div v-show="!showList">
 			<component :is="current"></component>
-			<div @click="backList">返回列表</div>
+			<a @click="backList">返回列表</a>
 		</div>
 	</div>
 </template>
@@ -89,12 +89,17 @@
 		.news-wrapper {
 			li {
 				font-size: 16px;
-				border-bottom: 1px #7d7a74 dashed;
 				color: #7d7a74;
-				padding-bottom: 12px;
-				text-indent: 1.5em;
+				margin-bottom: 12px;
+				border-bottom:1px dotted transparent;
 				div {
 					margin-top: 12px;
+				}
+				&:hover{
+					transition:all .5s ease-in;
+					cursor: pointer;
+					border-color: #2d8cf0;
+					color:#2d8cf0
 				}
 			}
 			.title {
