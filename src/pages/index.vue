@@ -222,7 +222,8 @@ export default {
             font-weight: bold;
           }
           .detail {
-            overflow: hidden;
+			overflow: hidden;
+			max-height: 141px;
             line-height: 1.75;
             font-size: 14px;
             text-overflow: ellipsis;
