@@ -29,7 +29,9 @@
 				culture_2: culture_2,
 			};
 		},
-
+		mounted: function() {
+			this.$emit("setCrumb", "企业文化");
+		}
 	};
 </script>
 

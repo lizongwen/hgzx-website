@@ -21,7 +21,9 @@
 				introduce_2: introduce_2,
 			};
 		},
-
+		mounted: function() {
+			this.$emit("setCrumb", "惠国简介");
+		}
 	};
 </script>
 

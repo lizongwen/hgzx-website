@@ -82,6 +82,9 @@
 
 			};
 		},
+		mounted: function() {
+			this.$emit("setCrumb", "合作伙伴");
+		}
 	}
 </script>
 

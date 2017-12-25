@@ -18,7 +18,9 @@
 				honor_2: honor_2,
 			};
 		},
-
+		mounted: function() {
+			this.$emit("setCrumb", "荣誉资质");
+		}
 	};
 </script>
 
