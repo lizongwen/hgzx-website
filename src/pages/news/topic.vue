@@ -96,7 +96,7 @@
 					margin-top: 12px;
 				}
 				&:hover{
-					transition:all .5s ease-in;
+					transition:all .3s ease-in;
 					cursor: pointer;
 					border-color: #2d8cf0;
 					color:#2d8cf0
