@@ -171,6 +171,9 @@ export default {
         .describe {
           font-size: 14px;
           line-height: 1.75;
+          &:hover {
+            color: #b31b24;
+          }
           .detail {
             overflow: hidden;
             text-overflow: ellipsis;
@@ -242,6 +245,9 @@ export default {
             display: -webkit-box;
             -webkit-line-clamp: 6;
             -webkit-box-orient: vertical;
+            &:hover {
+              color: #b31b24;
+            }
           }
         }
       }
