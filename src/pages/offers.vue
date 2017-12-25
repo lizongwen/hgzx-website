@@ -197,6 +197,9 @@
 				margin-bottom: 10px;
 				margin-top: 10px;
 			}
+			.require{
+				padding-left: 34px;
+			}
 		}
 		.text-danger {
 			color: #DD4347;

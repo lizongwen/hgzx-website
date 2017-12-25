@@ -41,9 +41,7 @@
 				<span class="text">征信服务
 					<small>Credit information service</small>
 				</span>
-				<span class="fa fa-angle-right">
-
-				</span>
+				<span class="fa fa-angle-right"></span>
 			</div>
 			<div class="service">
 				<ul>
@@ -143,10 +141,12 @@ export default {
     .about,
     .news,
     .service {
-      height: 360px;
+      height: 364px;
+    //   -moz-height: 364px;
       overflow: hidden;
     }
     .about {
+      overflow: hidden;
       display: block;
       .logo {
         margin: 9px 5px;
@@ -172,12 +172,14 @@ export default {
     .news {
       .news-item {
         position: relative;
+        max-height: 92px;
+        overflow: hidden;
         margin: 25px 0 30px;
         padding: 0 5px;
-		cursor: pointer;
-		&:hover{
-			color:#B31B24;
-		}
+        cursor: pointer;
+        &:hover {
+          color: #b31b24;
+        }
         &:last-child {
           margin-bottom: 0;
         }
@@ -220,7 +222,8 @@ export default {
             font-weight: bold;
           }
           .detail {
-            overflow: hidden;
+			overflow: hidden;
+			max-height: 141px;
             line-height: 1.75;
             font-size: 14px;
             text-overflow: ellipsis;
