@@ -6,6 +6,7 @@
 			<p class="right">发布人：芜湖新闻联播</p>
 		</div>
 		<div class="hr1"></div>
+		<p style="text-align: center"><iframe class="video_iframe" style="z-index:1;" src="http://v.qq.com/iframe/player.html?vid=b0386up1ysq&amp;width=700&amp;height=480&amp;auto=0" allowfullscreen="" frameborder="0" height="480" width="700"></iframe></p>
 		<div class="p1">近日，芜湖新闻频道《芜湖新闻联播》节目重点报道了惠国征信助力建设社会信用体系建设的情况。以下为报道全文：</div>
 		<div class="p1">记者近日从市发改委获悉，当前，惠国征信正着力打造惠政平台。该平台将应用于市场监管、公共服务、财政补贴、税收征缴和政府采购等多个政府职能领域，助力我市实现创建国家信用体系建设示范城市的目标。</div>
 		<div class="p1">据了解，惠政平台包含联合惩戒、综合监管、信用积分和信用运行分析等四大功能，可以将信用记录形成面向全社会主体的信用评价，应用于公共事业、城市服务、商业服务等领域的失信惩戒和守信激励，同时在全社会形成“一处违法、处处监管”的监管网络，达到限制严重失信者市场活动的效果。</div>
