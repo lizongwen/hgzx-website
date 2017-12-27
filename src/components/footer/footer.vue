@@ -50,7 +50,7 @@
 					</li>
 					<li>
 						<a href="javascript:;">
-							<router-link to="/financial/iot" class="sub-link">IOT贷后监管平台</router-link>
+							<router-link to="/financial/iot" class="sub-link">IoT贷后监管平台</router-link>
 						</a>
 					</li>
 					<li>

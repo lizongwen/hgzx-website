@@ -51,7 +51,7 @@
 							<router-link to="/financial/credit" class="sub-link">中小企业信用贷</router-link>
 						</MenuItem>
 						<MenuItem  name="4-2">
-							<router-link to="/financial/iot" class="sub-link">IOT贷后监管平台</router-link>
+							<router-link to="/financial/iot" class="sub-link">IoT贷后监管平台</router-link>
 						</MenuItem>
 						<MenuItem  name="4-3">
 							<router-link to="/financial/banking" class="sub-link">金融行业经验</router-link>

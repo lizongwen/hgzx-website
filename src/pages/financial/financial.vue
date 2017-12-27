@@ -15,7 +15,7 @@
 						</li>
 						<li>
 							<span>
-								<router-link to="/financial/iot" class="link">IOT贷后监管平台</router-link>
+								<router-link to="/financial/iot" class="link">IoT贷后监管平台</router-link>
 							</span>
 							<div class="line"></div>
 						</li>
