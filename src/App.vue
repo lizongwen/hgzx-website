@@ -17,7 +17,7 @@
 <script>
 import banner_01 from "./public/img/banner_01.jpg";
 import banner_02 from "./public/img/banner_02.jpg";
-import banner_03 from "./public/img/banner_02.jpg";
+//import banner_03 from "./public/img/banner_02.jpg";
 import header from "./components/header/header";
 import footer from "./components/footer/footer";
 import "swiper/dist/css/swiper.css";
@@ -33,7 +33,7 @@ export default {
         autoplay: 4000,
         width: window.innerWidth
       },
-      banners: [banner_01, banner_02,banner_03],
+      banners: [banner_01, banner_02],
       imgHeight: 0,
       num: '1'
     };
