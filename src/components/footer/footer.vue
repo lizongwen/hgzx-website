@@ -44,19 +44,19 @@
 						<a href="javascript:;">金融征信</a>
 					</li>
 					<li>
-						<a href="javascript:;">
-							<router-link to="/financial/credit" class="sub-link">中小企业信用贷</router-link>
-						</a>
+
+						<router-link to="/financial/credit" class="sub-link">中小企业信用贷</router-link>
+
 					</li>
 					<li>
-						<a href="javascript:;">
-							<router-link to="/financial/iot" class="sub-link">IoT贷后监管平台</router-link>
-						</a>
+
+						<router-link to="/financial/iot" class="sub-link">IoT贷后监管平台</router-link>
+
 					</li>
 					<li>
-						<a href="javascript:;">
-							<router-link to="/financial/banking" class="sub-link">金融行业经验</router-link>
-						</a>
+
+						<router-link to="/financial/banking" class="sub-link">金融行业经验</router-link>
+
 					</li>
 				</ul>
 				<ul class="list">
@@ -64,30 +64,30 @@
 						<a href="javascript:;">政务征信</a>
 					</li>
 					<li>
-						<a href="javascript:;">
-							<router-link to="/government/benevolent" class="link">惠政信用服务平台</router-link>
+
+						<router-link to="/government/benevolent" class="link">惠政信用服务平台</router-link>
+
+					</li>
+					<li>
+
+						<router-link to="/government/supervise" class="link">互联网金融监管平台</router-link>
 						</a>
 					</li>
 					<li>
-						<a href="javascript:;">
-							<router-link to="/government/supervise" class="link">互联网金融监管平台</router-link>
-						</a>
-					</li>
+
+						<router-link to="/government/system" class="link">社会信用体系建设</router-link>
+                    </li>
+				</ul>
+				<ul class="list">
 					<li>
-						<a href="javascript:;">
-							<router-link to="/government/system" class="link">社会信用体系建设</router-link>
-						</MenuItem>
-						</a>
+						<!--<a href="javascript:;">招贤纳士</a>-->
+						<router-link to="/offers" class="link">招贤纳士</router-link>
 					</li>
 				</ul>
 				<ul class="list">
 					<li>
-						<a href="javascript:;">招贤纳士</a>
-					</li>
-				</ul>
-				<ul class="list">
-					<li>
-						<a href="javascript:;">联系我们</a>
+						<!--<a href="javascript:;">联系我们</a>-->
+						<router-link to="/contact" class="link">联系我们</router-link>
 					</li>
 				</ul>
 			</div>
@@ -101,7 +101,7 @@
 				<div class="line"></div>
 				<div class="message">
 					<p class="message-left">联系电话&nbsp;&nbsp;86-0553-5801256</p>
-					<p class="message-right">Copyeight&nbsp;&nbsp;©&nbsp;&nbsp;惠国征信服务股份有限公司&nbsp;&nbsp;皖ICP备16019649号</p>
+					<p class="message-right">Copyright&nbsp;&nbsp;©&nbsp;&nbsp;惠国征信服务股份有限公司&nbsp;&nbsp;皖ICP备16019649号</p>
 				</div>
 			</div>
 		</div>
