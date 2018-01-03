@@ -12,7 +12,6 @@ Vue.config.productionTip = false;
 Vue.use(iView);
 // router.beforeEach((to, from, next) => {
 // 	console.log(to.name)
-
 // })
 new Vue({
 	el: '#app',
